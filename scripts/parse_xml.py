@@ -41,7 +41,7 @@ def parse_rule_xml(xml_file_path: str | Path) -> list[ArticleRecord]:
         A list of dictionaries containing rule_id, article_num and article text.
 
     Raises:
-        ValueError: If the XML is empty/invalid or the path structure is invalid.
+        ValueError: If the XML is empty/invalid, the file cannot be read, or the path structure is invalid.
     """
     xml_path = Path(xml_file_path)
     rule_id = _extract_rule_id(xml_path)
