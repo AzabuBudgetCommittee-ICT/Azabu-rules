@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import TypedDict
 import xml.etree.ElementTree as ET
+import re
 
 
 class ArticleRecord(TypedDict):
@@ -18,7 +19,7 @@ def _local_name(tag: str) -> str:
 
 
 def _normalize_text(value: str) -> str:
-    return " ".join(value.split())
+    return re.sub(r"\s+", " ", value).strip()
 
 
 def _extract_rule_id(xml_path: Path) -> str:
