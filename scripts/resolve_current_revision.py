@@ -7,7 +7,7 @@ import re
 from typing import Any, Mapping
 
 
-_EFFECTIVE_DATE_PATTERN = re.compile(r"^[0-9X]{8}$")
+_EFFECTIVE_DATE_PATTERN = re.compile(r"^(?:\d{8}|XXXXXXXX)$")
 
 
 def _to_yyyymmdd(value: date) -> int:
@@ -25,7 +25,7 @@ def _candidate_sort_key(effective_date: str, today_yyyymmdd: int) -> int | None:
     if not _EFFECTIVE_DATE_PATTERN.fullmatch(effective_date):
         raise ValueError(f"Invalid effective_date format: {effective_date}")
 
-    if "X" in effective_date:
+    if effective_date == "XXXXXXXX":
         return None
 
     if effective_date == "00000000":
