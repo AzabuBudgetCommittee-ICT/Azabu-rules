@@ -220,7 +220,7 @@ metadata/{rule_id}.json
 スキーマは以下とする。
 
 - law_id（必須）: 規則類ID。`^\d{4}(CON|LAW|RUL)\d{7}$`
-- law_type（必須）: 規則種別。`CON` / `LAW` / `RUL`
+- law_type（必須）: 規則種別。`CON`（規約） / `LAW`（規程） / `RUL`（規則）
 - law_status（必須）: 状態。`0`（有効）/ `1`（廃止）/ `2`（失効）/ `3`（停止）
 - law_name（必須）: 規則名
 - law_name_kana（任意）: 規則名の読み
@@ -231,10 +231,10 @@ metadata/{rule_id}.json
 `revision_info` の各要素:
 
 - revision_id（必須）: `{rule_id}_{施行日}_{改正規則ID}`
-        - 施行日: `YYYYMMDD` / `XXXXXXXX`
+        - 施行日: `YYYYMMDD` / `00000000`（施行済みだが、施行日が不明） / `XXXXXXXX`（施行日が未確定）
         - 改正規則ID: 規則類ID / `00000000000000`（初版）/ `XXXXXXXXXXXXXX`（不明）
-- enforcement_date（必須）: `YYYYMMDD` / `XXXXXXXX`
-        - `XXXXXXXX` 以外の場合、`revision_id` の施行日セグメントと一致すること
+- enforcement_date（必須）: `YYYYMMDD` / `00000000`（施行済みだが、施行日が不明）  / `XXXXXXXX`（施行日が未確定）
+        - `revision_id` の施行日セグメントと一致すること
 - enforcement_comment（任意）: 施行日に関する注記
 
 例:

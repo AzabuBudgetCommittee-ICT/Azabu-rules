@@ -33,7 +33,7 @@ class LawStatus(Enum):
 class RevisionInfo(BaseModel):
     """
     revision_id: READMEに定めた通りの改正id
-    enforcement_date: 施行日が確定している場合は、revision_idに記載されているのと同じ形式で、未定であればXXXXXXXXを
+    enforcement_date: 施行日が確定している場合は、revision_idに記載されているのと同じ形式で日付を入れる。未定であればXXXXXXXXを、不明であれば00000000を入れる。
     enforcement_comment: 施行日が未定な場合、その施行日に関する規定内容（例：本会議で議決された日から一年を超えない範囲で法制局規則で定める日）
     """
 
@@ -44,7 +44,7 @@ class RevisionInfo(BaseModel):
     @model_validator(mode="after")
     def validate_enforcement_date_matches_revision_id(self) -> "RevisionInfo":
         revision_date = self.revision_id.split("_")[1]
-        if self.enforcement_date != "XXXXXXXX" and self.enforcement_date != revision_date:
+        if self.enforcement_date != revision_date:
             raise ValueError("enforcement_date must match revision_id date segment")
         return self
 
