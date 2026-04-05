@@ -15,22 +15,22 @@ from scripts.resolve_current_revision import (
 class ResolveCurrentRevisionTest(unittest.TestCase):
     def _base_metadata(self, revision_info: list[dict], current_revision_id: str | None = None) -> dict:
         return {
-            "law_id": "2023LAW1000001",
-            "law_type": "LAW",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LAW",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程"],
             "current_revision_id": current_revision_id or revision_info[-1]["revision_id"],
             "revision_info": revision_info,
         }
 
     def test_mixed_enforcement_dates(self) -> None:
         metadata = {
-            "law_id": "2023LAW1000001",
-            "law_type": "LAW",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LAW",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程"],
             "current_revision_id": "2023LAW1000001_20260301_2026LAW1000002",
             "revision_info": [
                 {
@@ -144,7 +144,7 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
 
-    def test_raises_when_law_type_is_invalid(self) -> None:
+    def test_raises_when_rule_type_is_invalid(self) -> None:
         metadata = self._base_metadata(
             [
                 {
@@ -153,7 +153,7 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
                 }
             ]
         )
-        metadata["law_type"] = "LA"
+        metadata["rule_type"] = "LA"
 
         with self.assertRaises(ValueError):
             resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
@@ -167,13 +167,13 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
                 }
             ]
         )
-        metadata["law_type"] = "LA"
+        metadata["rule_type"] = "LA"
 
         with self.assertRaises(ValueError) as context:
             resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
 
         self.assertIn("Invalid metadata schema:", str(context.exception))
-        self.assertIn("law_type", str(context.exception))
+        self.assertIn("rule_type", str(context.exception))
 
     def test_raises_when_enforcement_date_mismatches_revision_id(self) -> None:
         metadata = self._base_metadata(

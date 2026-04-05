@@ -219,13 +219,15 @@ metadata/{rule_id}.json
 
 スキーマは以下とする。
 
-- law_id（必須）: 規則類ID。`^\d{4}(CON|LAW|RUL)\d{7}$`
-- law_type（必須）: 規則種別。`CON`（規約） / `LAW`（規程） / `RUL`（規則）
-- law_status（必須）: 状態。`0`（有効）/ `1`（廃止）/ `2`（失効）/ `3`（停止）
-- law_name（必須）: 規則名
-- law_name_kana（任意）: 規則名の読み
-- law_name_abbrev（必須）: 規則名の略称配列
-- law_name_abbrev_kana（任意）: 略称の読み配列。指定時は `law_name_abbrev` と同件数
+本リポジトリでは、規則類の英語キー名として `rule` 系の命名を採用する。
+
+- rule_id（必須）: 規則類ID。`^\d{4}(CON|LAW|RUL)\d{7}$`
+- rule_type（必須）: 規則種別。`CON`（規約） / `LAW`（規程） / `RUL`（規則）
+- rule_status（必須）: 状態。`0`（有効）/ `1`（廃止）/ `2`（失効）/ `3`（停止）
+- rule_name（必須）: 規則名
+- rule_name_kana（任意）: 規則名の読み
+- rule_name_abbrev（必須）: 規則名の略称配列
+- rule_name_abbrev_kana（任意）: 略称の読み配列。指定時は `rule_name_abbrev` と同件数
 - current_revision_id（必須）: 現在有効な改正ID。`revision_info` に含まれる必要がある
 - revision_info（必須）: 改正情報配列
 
@@ -242,11 +244,11 @@ metadata/{rule_id}.json
 
 ```json
 {
-    "law_id": "2023LAW1000001",
-    "law_type": "LAW",
-    "law_status": 0,
-    "law_name": "予算委員会規程",
-    "law_name_abbrev": ["予算規程"],
+    "rule_id": "2023LAW1000001",
+    "rule_type": "LAW",
+    "rule_status": 0,
+    "rule_name": "予算委員会規程",
+    "rule_name_abbrev": ["予算規程"],
     "current_revision_id": "2023LAW1000001_00000000_00000000000000",
     "revision_info": [
         {
