@@ -13,28 +13,45 @@ from scripts.resolve_current_revision import (
 
 
 class ResolveCurrentRevisionTest(unittest.TestCase):
-    def test_mixed_effective_dates(self) -> None:
+    def _base_metadata(self, revision_info: list[dict], current_revision_id: str | None = None) -> dict:
+        return {
+            "law_id": "2023LAW1000001",
+            "law_type": "LAW",
+            "law_status": 0,
+            "law_name": "予算委員会規程",
+            "law_name_abbrev": ["予算規程"],
+            "current_revision_id": current_revision_id or revision_info[-1]["revision_id"],
+            "revision_info": revision_info,
+        }
+
+    def test_mixed_enforcement_dates(self) -> None:
         metadata = {
-            "revisions": [
+            "law_id": "2023LAW1000001",
+            "law_type": "LAW",
+            "law_status": 0,
+            "law_name": "予算委員会規程",
+            "law_name_abbrev": ["予算規程"],
+            "current_revision_id": "2023LAW1000001_20260301_2026LAW1000002",
+            "revision_info": [
                 {
-                    "revision_id": "2023LAW1000001_00000000_000000000000000",
-                    "effective_date": "00000000",
+                    "revision_id": "2023LAW1000001_00000000_00000000000000",
+                    "enforcement_date": "00000000",
                 },
                 {
                     "revision_id": "2023LAW1000001_20240101_2024LAW1000001",
-                    "effective_date": "20240101",
+                    "enforcement_date": "20240101",
                 },
                 {
-                    "revision_id": "2023LAW1000001_XXXXXXXX_2025LAW1000001",
-                    "effective_date": "XXXXXXXX",
+                    "revision_id": "2023LAW1000001_XXXXXXXX_XXXXXXXXXXXXXX",
+                    "enforcement_date": "XXXXXXXX",
                 },
                 {
                     "revision_id": "2023LAW1000001_20270401_2026LAW1000001",
-                    "effective_date": "20270401",
+                    "enforcement_date": "20270401",
                 },
                 {
                     "revision_id": "2023LAW1000001_20260301_2026LAW1000002",
-                    "effective_date": "20260301",
+                    "enforcement_date": "20260301",
                 },
             ]
         }
@@ -43,58 +60,41 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
 
         self.assertEqual("2023LAW1000001_20260301_2026LAW1000002", result)
 
-    def test_unknown_effective_date_zero_is_candidate(self) -> None:
-        metadata = {
-            "revisions": [
+    def test_unknown_enforcement_date_zero_is_candidate(self) -> None:
+        metadata = self._base_metadata(
+            [
                 {
-                    "revision_id": "2023LAW1000001_XXXXXXXX_2025LAW1000001",
-                    "effective_date": "XXXXXXXX",
+                    "revision_id": "2023LAW1000001_XXXXXXXX_XXXXXXXXXXXXXX",
+                    "enforcement_date": "XXXXXXXX",
                 },
                 {
-                    "revision_id": "2023LAW1000001_00000000_000000000000000",
-                    "effective_date": "00000000",
+                    "revision_id": "2023LAW1000001_00000000_00000000000000",
+                    "enforcement_date": "00000000",
                 },
             ]
-        }
+        )
 
         result = resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
 
-        self.assertEqual("2023LAW1000001_00000000_000000000000000", result)
-
-    def test_returns_none_when_no_candidate(self) -> None:
-        metadata = {
-            "revisions": [
-                {
-                    "revision_id": "2023LAW1000001_XXXXXXXX_2025LAW1000001",
-                    "effective_date": "XXXXXXXX",
-                },
-                {
-                    "revision_id": "2023LAW1000001_20270401_2026LAW1000001",
-                    "effective_date": "20270401",
-                },
-            ]
-        }
-
-        result = resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
-
-        self.assertIsNone(result)
+        self.assertEqual("2023LAW1000001_00000000_00000000000000", result)
 
     def test_re_evaluation_after_metadata_update(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             metadata_path = Path(temp_dir) / "sample.json"
 
-            first_metadata = {
-                "revisions": [
+            first_metadata = self._base_metadata(
+                [
                     {
                         "revision_id": "2023LAW1000001_20250101_2025LAW1000001",
-                        "effective_date": "20250101",
+                        "enforcement_date": "20250101",
                     },
                     {
                         "revision_id": "2023LAW1000001_20270401_2026LAW1000001",
-                        "effective_date": "20270401",
+                        "enforcement_date": "20270401",
                     },
-                ]
-            }
+                ],
+                current_revision_id="2023LAW1000001_20250101_2025LAW1000001",
+            )
             metadata_path.write_text(
                 json.dumps(first_metadata, ensure_ascii=False), encoding="utf-8"
             )
@@ -104,18 +104,19 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
             )
             self.assertEqual("2023LAW1000001_20250101_2025LAW1000001", first_result)
 
-            updated_metadata = {
-                "revisions": [
+            updated_metadata = self._base_metadata(
+                [
                     {
                         "revision_id": "2023LAW1000001_20250101_2025LAW1000001",
-                        "effective_date": "20250101",
+                        "enforcement_date": "20250101",
                     },
                     {
                         "revision_id": "2023LAW1000001_20260201_2026LAW1000001",
-                        "effective_date": "20260201",
+                        "enforcement_date": "20260201",
                     },
-                ]
-            }
+                ],
+                current_revision_id="2023LAW1000001_20260201_2026LAW1000001",
+            )
             metadata_path.write_text(
                 json.dumps(updated_metadata, ensure_ascii=False), encoding="utf-8"
             )
@@ -125,17 +126,67 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
             )
             self.assertEqual("2023LAW1000001_20260201_2026LAW1000001", second_result)
 
-    def test_uses_effective_date_in_revision_id_if_missing(self) -> None:
-        metadata = {
-            "revisions": [
-                {"revision_id": "2023LAW1000001_20250301_2025LAW1000001"},
-                {"revision_id": "2023LAW1000001_20260201_2026LAW1000001"},
+    def test_raises_when_current_revision_id_mismatches_resolved_revision(self) -> None:
+        metadata = self._base_metadata(
+            [
+                {
+                    "revision_id": "2023LAW1000001_20250101_2025LAW1000001",
+                    "enforcement_date": "20250101",
+                },
+                {
+                    "revision_id": "2023LAW1000001_20260201_2026LAW1000001",
+                    "enforcement_date": "20260201",
+                },
             ]
-        }
+        )
+        metadata["current_revision_id"] = "2023LAW1000001_20250101_2025LAW1000001"
 
-        result = resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
+        with self.assertRaises(ValueError):
+            resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
 
-        self.assertEqual("2023LAW1000001_20260201_2026LAW1000001", result)
+    def test_raises_when_law_type_is_invalid(self) -> None:
+        metadata = self._base_metadata(
+            [
+                {
+                    "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
+                    "enforcement_date": "20250301",
+                }
+            ]
+        )
+        metadata["law_type"] = "LA"
+
+        with self.assertRaises(ValueError):
+            resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
+
+    def test_invalid_metadata_error_includes_validation_details(self) -> None:
+        metadata = self._base_metadata(
+            [
+                {
+                    "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
+                    "enforcement_date": "20250301",
+                }
+            ]
+        )
+        metadata["law_type"] = "LA"
+
+        with self.assertRaises(ValueError) as context:
+            resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
+
+        self.assertIn("Invalid metadata schema:", str(context.exception))
+        self.assertIn("law_type", str(context.exception))
+
+    def test_raises_when_enforcement_date_mismatches_revision_id(self) -> None:
+        metadata = self._base_metadata(
+            [
+                {
+                    "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
+                    "enforcement_date": "20250302",
+                }
+            ]
+        )
+
+        with self.assertRaises(ValueError):
+            resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
 
 
 if __name__ == "__main__":

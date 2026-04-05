@@ -217,6 +217,51 @@ revision_id は施行日等の変更に伴い **変更される場合がある**
 metadata/{rule_id}.json
 ```
 
+スキーマは以下とする。
+
+- law_id（必須）: 規則類ID。`^\d{4}(CON|LAW|RUL)\d{7}$`
+- law_type（必須）: 規則種別。`CON`（規約） / `LAW`（規程） / `RUL`（規則）
+- law_status（必須）: 状態。`0`（有効）/ `1`（廃止）/ `2`（失効）/ `3`（停止）
+- law_name（必須）: 規則名
+- law_name_kana（任意）: 規則名の読み
+- law_name_abbrev（必須）: 規則名の略称配列
+- law_name_abbrev_kana（任意）: 略称の読み配列。指定時は `law_name_abbrev` と同件数
+- current_revision_id（必須）: 現在有効な改正ID。`revision_info` に含まれる必要がある
+- revision_info（必須）: 改正情報配列
+
+`revision_info` の各要素:
+
+- revision_id（必須）: `{rule_id}_{施行日}_{改正規則ID}`
+        - 施行日: `YYYYMMDD` / `00000000`（施行済みだが、施行日が不明） / `XXXXXXXX`（施行日が未確定）
+        - 改正規則ID: 規則類ID / `00000000000000`（初版）/ `XXXXXXXXXXXXXX`（不明）
+- enforcement_date（必須）: `YYYYMMDD` / `00000000`（施行済みだが、施行日が不明）  / `XXXXXXXX`（施行日が未確定）
+        - `revision_id` の施行日セグメントと一致すること
+- enforcement_comment（任意）: 施行日に関する注記
+
+例:
+
+```json
+{
+    "law_id": "2023LAW1000001",
+    "law_type": "LAW",
+    "law_status": 0,
+    "law_name": "予算委員会規程",
+    "law_name_abbrev": ["予算規程"],
+    "current_revision_id": "2023LAW1000001_00000000_00000000000000",
+    "revision_info": [
+        {
+            "revision_id": "2023LAW1000001_00000000_00000000000000",
+            "enforcement_date": "00000000"
+        },
+        {
+            "revision_id": "2023LAW1000001_XXXXXXXX_XXXXXXXXXXXXXX",
+            "enforcement_date": "XXXXXXXX",
+            "enforcement_comment": "施行日は別に定める。"
+        }
+    ]
+}
+```
+
 ---
 
 ## 7. 現行改正の決定
@@ -226,8 +271,8 @@ metadata/{rule_id}.json
 アルゴリズム
 
 ```
-1. effective_date <= 今日
-2. 上記条件を満たす改正のうち、effective_date が最大のもの
+1. enforcement_date <= 今日
+2. 上記条件を満たす改正のうち、enforcement_date が最大のもの
 ```
 
 この改正段階のXMLを **全文検索の対象**とする。
