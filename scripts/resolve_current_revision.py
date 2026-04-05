@@ -39,7 +39,7 @@ def _candidate_sort_key(enforcement_date: str, today_yyyymmdd: int) -> int | Non
     return None
 
 
-def resolve_current_revision_from_metadata(metadata: object, today: date | None = None) -> str | None:
+def resolve_current_revision_from_metadata(metadata: object, today: date | None = None) -> str:
     try:
         metadata_obj = Metadata.model_validate(metadata)
     except ValidationError as error:
@@ -60,10 +60,16 @@ def resolve_current_revision_from_metadata(metadata: object, today: date | None 
             current_sort_key = sort_key
             current_revision_id = revision.revision_id
 
-    return current_revision_id
+    if current_revision_id is None:
+        raise ValueError("No current revision could be resolved")
+
+    if current_revision_id != metadata_obj.current_revision_id:
+        raise ValueError("current_revision_id does not match resolved revision")
+
+    return metadata_obj.current_revision_id
 
 
-def resolve_current_revision(metadata_file_path: str | Path, today: date | None = None) -> str | None:
+def resolve_current_revision(metadata_file_path: str | Path, today: date | None = None) -> str:
     metadata_path = Path(metadata_file_path)
 
     try:

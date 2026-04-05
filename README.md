@@ -226,6 +226,7 @@ metadata/{rule_id}.json
 - law_name_kana（任意）: 規則名の読み
 - law_name_abbrev（必須）: 規則名の略称配列
 - law_name_abbrev_kana（任意）: 略称の読み配列。指定時は `law_name_abbrev` と同件数
+- current_revision_id（必須）: 現在有効な改正ID。`revision_info` に含まれる必要がある
 - revision_info（必須）: 改正情報配列
 
 `revision_info` の各要素:
@@ -246,6 +247,7 @@ metadata/{rule_id}.json
     "law_status": 0,
     "law_name": "予算委員会規程",
     "law_name_abbrev": ["予算規程"],
+    "current_revision_id": "2023LAW1000001_00000000_00000000000000",
     "revision_info": [
         {
             "revision_id": "2023LAW1000001_00000000_00000000000000",

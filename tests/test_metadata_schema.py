@@ -13,6 +13,7 @@ class MetadataSchemaTest(unittest.TestCase):
             "law_status": 0,
             "law_name": "予算委員会規程",
             "law_name_abbrev": ["予算規程"],
+            "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
                     "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
@@ -33,6 +34,7 @@ class MetadataSchemaTest(unittest.TestCase):
             "law_status": 0,
             "law_name": "予算委員会規程",
             "law_name_abbrev": ["予算規程"],
+            "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
                     "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
@@ -51,6 +53,7 @@ class MetadataSchemaTest(unittest.TestCase):
             "law_status": 0,
             "law_name": "予算委員会規程",
             "law_name_abbrev": ["予算規程"],
+            "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
                     "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
@@ -70,6 +73,26 @@ class MetadataSchemaTest(unittest.TestCase):
             "law_name": "予算委員会規程",
             "law_name_abbrev": ["予算規程", "委員会規程"],
             "law_name_abbrev_kana": ["ヨサンクテイ"],
+            "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
+            "revision_info": [
+                {
+                    "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
+                    "enforcement_date": "20250301",
+                }
+            ],
+        }
+
+        with self.assertRaises(ValueError):
+            Metadata.model_validate(data)
+
+    def test_current_revision_id_must_exist_in_revision_info(self) -> None:
+        data = {
+            "law_id": "2023LAW1000001",
+            "law_type": "LAW",
+            "law_status": 0,
+            "law_name": "予算委員会規程",
+            "law_name_abbrev": ["予算規程"],
+            "current_revision_id": "2023LAW1000001_20250401_2025LAW1000001",
             "revision_info": [
                 {
                     "revision_id": "2023LAW1000001_20250301_2025LAW1000001",

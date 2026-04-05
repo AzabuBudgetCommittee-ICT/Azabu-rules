@@ -66,6 +66,7 @@ class Metadata(BaseModel):
     law_name_kana: str | None = None
     law_name_abbrev: list[str]
     law_name_abbrev_kana: list[str] | None = None
+    current_revision_id: str = Field(pattern=REVISION_ID_PATTERN)
     revision_info: list[RevisionInfo]
 
     @model_validator(mode="after")
@@ -74,4 +75,7 @@ class Metadata(BaseModel):
             len(self.law_name_abbrev_kana) != len(self.law_name_abbrev)
         ):
             raise ValueError("law_name_abbrev_kana must have the same length as law_name_abbrev")
+        revision_ids = {revision.revision_id for revision in self.revision_info}
+        if self.current_revision_id not in revision_ids:
+            raise ValueError("current_revision_id must exist in revision_info")
         return self
