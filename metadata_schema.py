@@ -9,9 +9,9 @@ REVISION_ID_PATTERN = (
 
 class LawType(Enum):
     """
-    COnstitution：規約
-    LAw：規程
-    RUle: 規則
+    CONstitution：規約
+    LAW：規程
+    RULe: 規則
     """
 
     CON = "CON"
