@@ -43,7 +43,7 @@ def resolve_current_revision_from_metadata(metadata: object, today: date | None 
     try:
         metadata_obj = Metadata.model_validate(metadata)
     except ValidationError as error:
-        raise ValueError("Invalid metadata schema") from error
+        raise ValueError(f"Invalid metadata schema: {error}") from error
 
     target_date = today or date.today()
     today_yyyymmdd = _to_yyyymmdd(target_date)

@@ -158,6 +158,23 @@ class ResolveCurrentRevisionTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
 
+    def test_invalid_metadata_error_includes_validation_details(self) -> None:
+        metadata = self._base_metadata(
+            [
+                {
+                    "revision_id": "2023LAW1000001_20250301_2025LAW1000001",
+                    "enforcement_date": "20250301",
+                }
+            ]
+        )
+        metadata["law_type"] = "LA"
+
+        with self.assertRaises(ValueError) as context:
+            resolve_current_revision_from_metadata(metadata, today=date(2026, 3, 18))
+
+        self.assertIn("Invalid metadata schema:", str(context.exception))
+        self.assertIn("law_type", str(context.exception))
+
     def test_raises_when_enforcement_date_mismatches_revision_id(self) -> None:
         metadata = self._base_metadata(
             [
