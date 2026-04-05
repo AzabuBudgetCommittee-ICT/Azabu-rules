@@ -8,11 +8,11 @@ from metadata_schema import Metadata
 class MetadataSchemaTest(unittest.TestCase):
     def test_valid_minimum_metadata(self) -> None:
         data = {
-            "law_id": "2023LAW1000001",
-            "law_type": "LAW",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LAW",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程"],
             "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
@@ -24,16 +24,16 @@ class MetadataSchemaTest(unittest.TestCase):
 
         metadata = Metadata.model_validate(data)
 
-        self.assertEqual("2023LAW1000001", metadata.law_id)
+        self.assertEqual("2023LAW1000001", metadata.rule_id)
         self.assertEqual(1, len(metadata.revision_info))
 
-    def test_invalid_law_type_raises(self) -> None:
+    def test_invalid_rule_type_raises(self) -> None:
         data = {
-            "law_id": "2023LAW1000001",
-            "law_type": "LA",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LA",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程"],
             "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
@@ -48,11 +48,11 @@ class MetadataSchemaTest(unittest.TestCase):
 
     def test_mismatched_enforcement_date_raises(self) -> None:
         data = {
-            "law_id": "2023LAW1000001",
-            "law_type": "LAW",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LAW",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程"],
             "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
@@ -67,12 +67,12 @@ class MetadataSchemaTest(unittest.TestCase):
 
     def test_abbrev_kana_length_mismatch_raises(self) -> None:
         data = {
-            "law_id": "2023LAW1000001",
-            "law_type": "LAW",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程", "委員会規程"],
-            "law_name_abbrev_kana": ["ヨサンクテイ"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LAW",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程", "委員会規程"],
+            "rule_name_abbrev_kana": ["ヨサンクテイ"],
             "current_revision_id": "2023LAW1000001_20250301_2025LAW1000001",
             "revision_info": [
                 {
@@ -87,11 +87,11 @@ class MetadataSchemaTest(unittest.TestCase):
 
     def test_current_revision_id_must_exist_in_revision_info(self) -> None:
         data = {
-            "law_id": "2023LAW1000001",
-            "law_type": "LAW",
-            "law_status": 0,
-            "law_name": "予算委員会規程",
-            "law_name_abbrev": ["予算規程"],
+            "rule_id": "2023LAW1000001",
+            "rule_type": "LAW",
+            "rule_status": 0,
+            "rule_name": "予算委員会規程",
+            "rule_name_abbrev": ["予算規程"],
             "current_revision_id": "2023LAW1000001_20250401_2025LAW1000001",
             "revision_info": [
                 {
