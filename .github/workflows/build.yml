@@ -5,6 +5,9 @@ on:
     paths:
       - rules/**
       - metadata/**
+      - scripts/build_index.py
+      - metadata_schema.py
+      - requirements.txt
   workflow_dispatch:
 
 permissions:
@@ -45,24 +48,51 @@ jobs:
           before_sha="${{ github.event.before }}"
           after_sha="${{ github.sha }}"
 
+          force_full_build=false
           if [[ "$before_sha" == "0000000000000000000000000000000000000000" ]]; then
-            changed_files="$(git ls-tree -r --name-only "$after_sha")"
+            changed_status="$(git ls-tree -r --name-only "$after_sha" | awk '{print "A\t" $0}')"
           else
-            changed_files="$(git diff --name-only "$before_sha" "$after_sha")"
+            changed_status="$(git diff --name-status "$before_sha" "$after_sha")"
+            if printf '%s\n' "$changed_status" | grep -qE '^(D|R)'; then
+              force_full_build=true
+            fi
           fi
 
+          mapfile -t changed_files < <(
+            printf '%s\n' "$changed_status" \
+              | awk -F '\t' '{
+                  if ($1 ~ /^R/) {
+                    print $2
+                    print $3
+                  } else {
+                    print $2
+                  }
+                }' \
+              | sed '/^$/d'
+          )
+
           mapfile -t candidate_rule_ids < <(
-            printf '%s\n' "$changed_files" \
+            printf '%s\n' "${changed_files[@]:-}" \
               | sed -nE 's#^rules/([0-9]{4}(CON|LAW|RUL)[0-9]{7})/.*#\1#p; s#^metadata/([0-9]{4}(CON|LAW|RUL)[0-9]{7})\.json$#\1#p' \
               | sort -u
           )
 
           valid_rule_ids=()
+          missing_counterpart=false
           for rule_id in "${candidate_rule_ids[@]:-}"; do
             if [[ -d "rules/$rule_id" && -f "metadata/$rule_id.json" ]]; then
               valid_rule_ids+=("$rule_id")
+            else
+              missing_counterpart=true
             fi
           done
+
+          if [[ "$force_full_build" == "true" || "$missing_counterpart" == "true" ]]; then
+            echo "is_full_build=true" >> "$GITHUB_OUTPUT"
+            echo "has_targets=true" >> "$GITHUB_OUTPUT"
+            echo "rule_ids=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
           if [[ ${#valid_rule_ids[@]} -eq 0 ]]; then
             echo "is_full_build=false" >> "$GITHUB_OUTPUT"
