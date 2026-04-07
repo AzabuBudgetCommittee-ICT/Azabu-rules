@@ -3,9 +3,10 @@ from __future__ import annotations
 import argparse
 import json
 from pathlib import Path
+import re
 from typing import Any
 
-from metadata_schema import Metadata
+from metadata_schema import Metadata, RULE_ID_PATTERN
 from scripts.parse_xml import ArticleRecord, parse_rule_xml
 from scripts.resolve_current_revision import resolve_current_revision
 from scripts.tokenizer import tokenize
@@ -80,6 +81,11 @@ def _resolve_target_rule_ids(metadata_dir: Path, requested_rule_ids: list[str] |
     return sorted(set(requested_rule_ids))
 
 
+def _validate_rule_id(rule_id: str) -> None:
+    if not re.fullmatch(RULE_ID_PATTERN, rule_id):
+        raise ValueError(f"Invalid rule_id format: {rule_id}")
+
+
 def build_index(rule_ids: list[str] | None = None, project_root: Path | None = None) -> None:
     root = project_root or _repo_root()
     metadata_dir = root / "metadata"
@@ -92,38 +98,44 @@ def build_index(rule_ids: list[str] | None = None, project_root: Path | None = N
     search_index_path = search_dir / "search-index.json"
     rules_index_path = public_dir / "rules-index.json"
 
+    all_rule_ids = _list_all_rule_ids(metadata_dir)
+    metadata_by_rule_id: dict[str, tuple[dict[str, Any], Metadata]] = {}
+    active_rule_id_set: set[str] = set()
+
+    for rule_id in all_rule_ids:
+        _validate_rule_id(rule_id)
+        metadata_path = metadata_dir / f"{rule_id}.json"
+        metadata_raw, metadata_model = _load_metadata(metadata_path)
+        metadata_by_rule_id[rule_id] = (metadata_raw, metadata_model)
+        if metadata_model.rule_status.value == 0:
+            active_rule_id_set.add(rule_id)
+
     target_rule_ids = _resolve_target_rule_ids(metadata_dir, rule_ids)
+    for rule_id in target_rule_ids:
+        _validate_rule_id(rule_id)
+        if rule_id not in metadata_by_rule_id:
+            raise ValueError(f"Metadata file not found: {metadata_dir / f'{rule_id}.json'}")
+
     target_rule_id_set = set(target_rule_ids)
 
     existing_documents: list[dict[str, Any]] = _load_json(documents_path, [])
     untouched_documents = [
         document
         for document in existing_documents
-        if document.get("rule_id") not in target_rule_id_set
+        if document.get("rule_id") in active_rule_id_set
+        and document.get("rule_id") not in target_rule_id_set
     ]
 
-    existing_rules_index: list[dict[str, Any]] = _load_json(rules_index_path, [])
-    existing_rules_by_id = {
-        str(item.get("rule_id")): item
-        for item in existing_rules_index
-        if isinstance(item, dict) and item.get("rule_id")
-    }
-
     new_documents: list[dict[str, Any]] = []
-    updated_rules_by_id = dict(existing_rules_by_id)
 
     for rule_id in target_rule_ids:
-        metadata_path = metadata_dir / f"{rule_id}.json"
-        if not metadata_path.exists():
-            raise ValueError(f"Metadata file not found: {metadata_path}")
-
-        metadata_raw, metadata_model = _load_metadata(metadata_path)
-        updated_rules_by_id[rule_id] = metadata_raw
+        metadata_raw, metadata_model = metadata_by_rule_id[rule_id]
 
         # rule_statusが0以外の規則は、検索対象に含めない。
         if metadata_model.rule_status.value != 0:
             continue
 
+        metadata_path = metadata_dir / f"{rule_id}.json"
         revision_id = resolve_current_revision(metadata_path)
         xml_path = rules_dir / rule_id / f"{revision_id}.xml"
         articles = parse_rule_xml(xml_path)
@@ -133,7 +145,7 @@ def build_index(rule_ids: list[str] | None = None, project_root: Path | None = N
     merged_documents.sort(key=lambda item: item["doc_id"])
     search_index = _build_search_index(merged_documents)
 
-    updated_rules_index = [updated_rules_by_id[rule_id] for rule_id in sorted(updated_rules_by_id)]
+    updated_rules_index = [metadata_by_rule_id[rule_id][0] for rule_id in sorted(metadata_by_rule_id)]
 
     _write_json(documents_path, merged_documents)
     _write_json(search_index_path, search_index)

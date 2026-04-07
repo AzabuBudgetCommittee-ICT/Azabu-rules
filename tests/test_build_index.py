@@ -86,6 +86,7 @@ class BuildIndexTest(unittest.TestCase):
                 encoding="utf-8",
             )
 
+            self._write_metadata(metadata_dir, "2024LAW1000002", status=0)
             self._write_metadata(metadata_dir, "2023LAW1000001", status=0)
             self._write_rule_xml(rules_dir, "2023LAW1000001")
 
@@ -156,6 +157,135 @@ class BuildIndexTest(unittest.TestCase):
 
             rules_index = json.loads((root / "public" / "rules-index.json").read_text(encoding="utf-8"))
             self.assertEqual([inactive_metadata], rules_index)
+
+    def test_differential_build_cleans_removed_rule_from_documents_and_rules_index(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            metadata_dir = root / "metadata"
+            rules_dir = root / "rules"
+            search_dir = root / "public" / "search"
+            metadata_dir.mkdir(parents=True, exist_ok=True)
+            rules_dir.mkdir(parents=True, exist_ok=True)
+            search_dir.mkdir(parents=True, exist_ok=True)
+
+            kept_rule = "2023LAW1000001"
+            removed_rule = "2024LAW1000002"
+
+            kept_metadata = self._write_metadata(metadata_dir, kept_rule, status=0)
+            self._write_rule_xml(rules_dir, kept_rule)
+
+            (search_dir / "documents.json").write_text(
+                json.dumps(
+                    [
+                        {
+                            "doc_id": f"{kept_rule}-1",
+                            "rule_id": kept_rule,
+                            "article_num": "1",
+                            "text": "既存",
+                            "tokens": ["既存"],
+                        },
+                        {
+                            "doc_id": f"{removed_rule}-1",
+                            "rule_id": removed_rule,
+                            "article_num": "1",
+                            "text": "削除対象",
+                            "tokens": ["削除"],
+                        },
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            (root / "public" / "rules-index.json").write_text(
+                json.dumps(
+                    [
+                        kept_metadata,
+                        {
+                            "rule_id": removed_rule,
+                            "rule_type": "LAW",
+                            "rule_status": 0,
+                            "rule_name": "削除済み規程",
+                            "rule_name_abbrev": ["削除"],
+                            "current_revision_id": f"{removed_rule}_00000000_00000000000000",
+                            "revision_info": [
+                                {
+                                    "revision_id": f"{removed_rule}_00000000_00000000000000",
+                                    "enforcement_date": "00000000",
+                                }
+                            ],
+                        },
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            with patch("scripts.build_index.tokenize", lambda text: text.split()):
+                build_index(rule_ids=[kept_rule], project_root=root)
+
+            documents = json.loads((search_dir / "documents.json").read_text(encoding="utf-8"))
+            self.assertTrue(all(item["rule_id"] != removed_rule for item in documents))
+
+            rules_index = json.loads((root / "public" / "rules-index.json").read_text(encoding="utf-8"))
+            self.assertEqual([kept_metadata], rules_index)
+
+    def test_differential_build_cleans_inactive_rule_even_when_not_targeted(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            metadata_dir = root / "metadata"
+            rules_dir = root / "rules"
+            search_dir = root / "public" / "search"
+            metadata_dir.mkdir(parents=True, exist_ok=True)
+            rules_dir.mkdir(parents=True, exist_ok=True)
+            search_dir.mkdir(parents=True, exist_ok=True)
+
+            target_rule = "2023LAW1000001"
+            inactive_rule = "2024LAW1000002"
+
+            self._write_metadata(metadata_dir, target_rule, status=0)
+            self._write_rule_xml(rules_dir, target_rule)
+            self._write_metadata(metadata_dir, inactive_rule, status=1)
+
+            (search_dir / "documents.json").write_text(
+                json.dumps(
+                    [
+                        {
+                            "doc_id": f"{target_rule}-1",
+                            "rule_id": target_rule,
+                            "article_num": "1",
+                            "text": "既存",
+                            "tokens": ["既存"],
+                        },
+                        {
+                            "doc_id": f"{inactive_rule}-1",
+                            "rule_id": inactive_rule,
+                            "article_num": "1",
+                            "text": "非有効",
+                            "tokens": ["非有効"],
+                        },
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            with patch("scripts.build_index.tokenize", lambda text: text.split()):
+                build_index(rule_ids=[target_rule], project_root=root)
+
+            documents = json.loads((search_dir / "documents.json").read_text(encoding="utf-8"))
+            self.assertTrue(all(item["rule_id"] != inactive_rule for item in documents))
+
+    def test_invalid_rule_id_input_raises(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            metadata_dir = root / "metadata"
+            metadata_dir.mkdir(parents=True, exist_ok=True)
+
+            self._write_metadata(metadata_dir, "2023LAW1000001", status=0)
+
+            with self.assertRaises(ValueError):
+                build_index(rule_ids=["../etc/passwd"], project_root=root)
 
 
 if __name__ == "__main__":
