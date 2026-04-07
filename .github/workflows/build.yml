@@ -81,6 +81,17 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Restore Previous Public Cache
+        if: steps.detect.outputs.has_targets == 'true'
+        id: restore-public
+        uses: actions/cache@v4
+        with:
+          path: public
+          key: public-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            public-${{ github.ref_name }}-
+            public-
+
       - name: Install Dependencies
         if: steps.detect.outputs.has_targets == 'true'
         run: |
@@ -96,8 +107,14 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          read -r -a rule_ids <<< "${{ steps.detect.outputs.rule_ids }}"
-          python scripts/build_index.py --rule-ids "${rule_ids[@]}"
+          if [[ -f public/search/documents.json && -f public/rules-index.json ]]; then
+            echo "Running differential build with restored public cache."
+            read -r -a rule_ids <<< "${{ steps.detect.outputs.rule_ids }}"
+            python scripts/build_index.py --rule-ids "${rule_ids[@]}"
+          else
+            echo "Previous index artifacts are missing; falling back to full build."
+            python scripts/build_index.py
+          fi
 
       - name: Configure GitHub Pages
         if: steps.detect.outputs.has_targets == 'true'
