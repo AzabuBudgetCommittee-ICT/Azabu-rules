@@ -1,0 +1,16 @@
+{
+    "rule_id": "2023CON1000011",
+    "rule_type": "CON",
+    "rule_status": 0,
+    "rule_name": "予算委員会規約",
+    "rule_name_kana": "よさんいいんかいきやく",
+    "rule_name_abbrev": ["規約"],
+    "rule_name_abbrev_kana": ["きやく"],
+    "current_revision_id": "2023CON1000011_20241106_2024CON1000011",
+    "revision_info": [
+        {
+            "revision_id": "2023CON1000011_20241106_2024CON1000011",
+            "enforcement_date": "20241106"
+        }
+    ]
+}

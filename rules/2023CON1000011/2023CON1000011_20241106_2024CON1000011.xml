@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Law Lang="ja">
+    <LawBody>
+        <LawTitle>予算委員会規約</LawTitle>
+        <TOC>
+            <TOCLabel>目次</TOCLabel>
+            <TOCPreambleLabel>前文</TOCPreambleLabel>
+            <TOCChapter Num="1">
+                <ChapterTitle>第1章 総則</ChapterTitle>
+                <ArticleRange>（第1条－第4条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="2">
+                <ChapterTitle>第2章 委員</ChapterTitle>
+                <ArticleRange>（第5条－第9条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="3">
+                <ChapterTitle>第3章 機関</ChapterTitle>
+                <TOCSection Num="1">
+                    <SectionTitle>第1節 本会議</SectionTitle>
+                    <ArticleRange>（第10条－第15条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="2">
+                    <SectionTitle>第2節 小委員会</SectionTitle>
+                    <TOCDivision Num="1">
+                        <DivisionTitle>第1目 総則</DivisionTitle>
+                        <ArticleRange>（第16条－第22条）</ArticleRange>
+                    </TOCDivision>
+                    <TOCDivision Num="2">
+                        <DivisionTitle>第2目 予算委員会運営委員会</DivisionTitle>
+                        <ArticleRange>（第23条－第25条）</ArticleRange>
+                    </TOCDivision>
+                </TOCSection>
+                <TOCSection Num="3">
+                    <SectionTitle>第3節 議長及び議長団</SectionTitle>
+                    <ArticleRange>（第26条－第31条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="4">
+                    <SectionTitle>第4節 監査局</SectionTitle>
+                    <ArticleRange>（第32条－第36条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="5">
+                    <SectionTitle>第5節 法制局</SectionTitle>
+                    <ArticleRange>（第37条－第41条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="6">
+                    <SectionTitle>第6節 事務局</SectionTitle>
+                    <ArticleRange>（第42条－第46条）</ArticleRange>
+                </TOCSection>
+            </TOCChapter>
+            <TOCChapter Num="4">
+                <ChapterTitle>第4章 直接制度</ChapterTitle>
+                <TOCSection Num="1">
+                    <SectionTitle>第1節 全校集会及び学年集会</SectionTitle>
+                    <ArticleRange>（第47条－第50条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="2">
+                    <SectionTitle>第2節 クラス審議</SectionTitle>
+                    <ArticleRange>（第51条・第52条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="3">
+                    <SectionTitle>第3節 直接請求</SectionTitle>
+                    <ArticleRange>（第53条）</ArticleRange>
+                </TOCSection>
+            </TOCChapter>
+            <TOCChapter Num="5">
+                <ChapterTitle>第5章 財務</ChapterTitle>
+                <ArticleRange>（第54条－第66条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="6">
+                <ChapterTitle>第6章 雑則</ChapterTitle>
+                <ArticleRange>（第67条－第73条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="7">
+                <ChapterTitle>第7章 罰則</ChapterTitle>
+                <ArticleRange>（第74条）</ArticleRange>
+            </TOCChapter>
+            <TOCSupplProvision>
+                <SupplProvisionLabel>附則</SupplProvisionLabel>
+            </TOCSupplProvision>
+        </TOC>
+        <Preamble>
+            <Paragraph Num="1">
+                <ParagraphNum />
+                <ParagraphSentence>
+                    <Sentence Num="1">本規約は麻布学園における予算委員会の役割を明文化し、その活動を円滑に行うための指針となる最高法規である。</Sentence>
+                    <Sentence Num="2">
+                        予算委員会とは全校の意志集約機関として、現在の複数機関により分権化された麻布学園における自治活動の中で、主に自治活動の根源となる予算の管理と配分という面を担うことによって率先的な役割を果たしていく機関である。</Sentence>
+                </ParagraphSentence>
+            </Paragraph>
+            <Paragraph Num="2">
+                <ParagraphNum />
+                <ParagraphSentence>
+                    <Sentence Num="1">予算委員会は設立以来、状況により性質は変われど、全校の意志集約機関としての役割を掲げてきた。</Sentence>
+                    <Sentence Num="2">
+                        しかし実際には具体的な実務である予算管理にとらわれ、麻布の自治活動の中で生まれてきた様々な矛盾点やそれに付随して発生した諸問題に対して能動的な対応をとることを怠ってきた。</Sentence>
+                    <Sentence Num="3">
+                        我々予算委員会はその状況を是とせず、2007年度の規約改正をもって全麻布生の意志集約機関として確立された新しい予算委員会の誕生を宣言する。</Sentence>
+                </ParagraphSentence>
+            </Paragraph>
+            <Paragraph Num="3">
+                <ParagraphNum />
+                <ParagraphSentence>
+                    <Sentence Num="1">予算委員は、今後起こりうるであろうさまざまな問題に対処していく義務がある。</Sentence>
+                    <Sentence Num="2">よって各委員は、全校の代表としての自覚を持ち、本委員会において積極的な活動をすることが求められる。</Sentence>
+                </ParagraphSentence>
+            </Paragraph>
+        </Preamble>
+        <MainProvision>
+            <Chapter Num="1">
+                <ChapterTitle>第1章 総則</ChapterTitle>
+                <Article Num="1">
+                    <ArticleCaption>（予算委員会）</ArticleCaption>
+                    <ArticleTitle>第1条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>本委員会は、予算委員会と称する、予算配分機関にして全校の意思集約機関たる自治機関である。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="2">
+                    <ArticleCaption>（任務）</ArticleCaption>
+                    <ArticleTitle>第2条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                予算委員会の予算配分機関としての任務は、本校における自治活動をはじめとする生徒の活動が金銭的な面において制約を受けないように、予算の配分、及びこれの監査、その他生徒活動における財務に関わることである。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                予算委員会の全校の意思集約機関としての任務は、本校において必要なあらゆる事象に対応し、自治活動における包括的かつ総合的な職務、及び他の機関に属さないことである。</Sentence>
+                            <Sentence Num="2">また、文化祭実行委員会及び運動会実行委員会に対する監督及び監査を行う。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>予算委員会は、自治機関として、常に全校への公益性を求められるものである。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="3">
+                    <ArticleCaption>（組織）</ArticleCaption>
+                    <ArticleTitle>第3条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会は、次に掲げる機関をおく。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>本会議</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>小委員会</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>議長及び議長団</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>監査局</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>法制局</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="6">
+                            <ItemTitle>(6)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>事務局</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="7">
+                            <ItemTitle>(7)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>参議会</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                </Article>
+                <Article Num="4">
+                    <ArticleCaption>（活動年度）</ArticleCaption>
+                    <ArticleTitle>第4条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">予算委員会の活動年度は、毎年四月一日に始まり、翌年三月三十一日に終わるものとする。</Sentence>
+                            <Sentence Num="2">予算委員の任期は、予算委員会の活動年度に準ずるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="2">
+                <ChapterTitle>第2章 委員</ChapterTitle>
+                <Article Num="5">
+                    <ArticleCaption>（委員）</ArticleCaption>
+                    <ArticleTitle>第5条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                予算委員会を構成する者は、予算委員会正委員（正委員という。以下同じ。）及び予算委員会副委員（副委員という。以下同じ。）とし、予算委員会委員（予算委員という。以下同じ。）と総称するものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                予算委員は、麻布中学校・高等学校（本校という。以下同じ。）における高等学校第三学年を除く学年に属するクラス（クラスという。以下同じ。）、又は高等学校第三学年を除く学年（学年という。以下同じ。）から正当に選挙されるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1" Function="main">
+                                各クラスは、当該クラスに所属する麻布中学校・高等学校の生徒（麻布生という。以下同じ。）のうちから、正委員1名及び副委員3名以下を選出する。</Sentence>
+                            <Sentence Num="2" Function="main">
+                                各学年は、当該学年の各クラスを選出基盤とする委員のほか、当該学年に所属する麻布生のうちから、正委員1名を選出する。</Sentence>
+                            <Sentence Num="3" Function="main">正委員を選出しないクラスについては、副委員の選出を認めない。</Sentence>
+                            <Sentence Num="4" Function="proviso">
+                                ただし、活動年度の途中において正委員が失職した場合は、この限りではない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="4">
+                        <ParagraphNum>4</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>予算委員は、自治機関の構成員として、その服務において常に全校への公益性を求められるものである。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="6">
+                    <ArticleCaption>（権利）</ArticleCaption>
+                    <ArticleTitle>第6条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員は、次に掲げる権利を有する。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>本会議において発言する権利</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>本会議に発議及び動議を行う権利</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>小委員会の会議を傍聴する権利</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>自らの属する小委員会において発言し、及び表決（選挙における投票を含むものとする。以下本条において同じ。）を行う権利</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>前各号に掲げる権利のほか、規則類において定められた権利</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                正委員は、前項に掲げる権利のほか、本会議において表決を行う権利、及び自身が欠席する本会議において自身と選出基盤を同じくする副委員に表決権を代理させる権利を有する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>委員は、その選出基盤や地位によらず、すべて平等である。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="7">
+                    <ArticleCaption>（義務）</ArticleCaption>
+                    <ArticleTitle>第7条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員は、次に掲げる義務を有する。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>自らの所属する小委員会に出席する義務</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>全体代表として、自身の為すべきと思うところを為すべく努力する義務</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>選出基盤の意思を測り予算委員会に提示する義務</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>予算委員会の意思を選出基盤に提示し、浸透させる義務</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>前各号に掲げる義務のほか、規則類において定められた職務を全うする義務</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="6">
+                            <ItemTitle>(6)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>前各号に掲げる義務のほか、規則類に定められた義務</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                正委員は、前項に掲げる権利のほか、本会議に出席する義務、及び自身が欠席する本会議において自身と選出基盤を同じくする副委員に表決権を代理させる義務を有する。</Sentence>
+                            <Sentence Num="2">
+                                なお、原則として、表決権を代理させる順序を副委員が選出された時点で定めることで、選出基盤を同じくする副委員に代理させる義務の履行とするものとし、正委員が本会議を欠席した際には事前に定められた順序によって、自動的に表決権が代理せられるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1" Function="main">前項の規定により表決権を代理せられた委員は、本会議に出席する義務を負う。</Sentence>
+                            <Sentence Num="2" Function="proviso">
+                                ただし、この規定によって正委員の本会議への出席義務が消失するものではない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="4">
+                        <ParagraphNum>4</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                正委員が議長に就任した場合、その委員に指名された選出基盤を同じくする副委員1名は、本会議において正委員職を代理する。</Sentence>
+                            <Sentence Num="2">代理する委員は、正委員と同様の権利及び義務を有する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="8">
+                    <ArticleCaption>（離職等）</ArticleCaption>
+                    <ArticleTitle>第8条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員は、次に掲げる事由によってのみ離職し、失職し、解職され、または辞職する。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>任期を満了したことによって離職するとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>死亡したことによって離職するとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>
+                                    重大な事故によって、それ以上委員たるの職務を全うすることが不可能であると本会議において判断されたことによって離職せられるとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>退学によって失職するとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>懲罰によって除名、解職されたとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="6">
+                            <ItemTitle>(6)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>第2項の規定により辞職したとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="7">
+                            <ItemTitle>(7)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>兼職禁止規定に反したことによって失職するとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="8">
+                            <ItemTitle>(8)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>自身の選出基盤において信任を失ったことによって解職されるとき</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>予算委員は、辞職しようとするとき、議長に辞表を提出し、本会議に承認を求めなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="9">
+                    <ArticleCaption>（補充）</ArticleCaption>
+                    <ArticleTitle>第9条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>委員に欠員が生じたときは、可及的速やかに、正当に補充するよう努めなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="3">
+                <ChapterTitle>第3章 機関</ChapterTitle>
+                <Section Num="1">
+                    <SectionTitle>第1節 本会議</SectionTitle>
+                    <Article Num="10">
+                        <ArticleCaption>（本会議）</ArticleCaption>
+                        <ArticleTitle>第10条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>本会議は、予算委員会の議決機関、すなわち最高意思決定機関である。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="11">
+                        <ArticleCaption>（構成）</ArticleCaption>
+                        <ArticleTitle>第11条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence Num="1" Function="main">本会議は、全ての予算委員によって構成する。</Sentence>
+                                <Sentence Num="2" Function="proviso">
+                                    ただし、表決権及び出席義務その他に関する第6条及び第7条の規定を妨げるものではない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="12">
+                        <ArticleCaption>（任務）</ArticleCaption>
+                        <ArticleTitle>第12条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>
+                                    本会議の任務は、提出された議事に関して議論し、最良の結論を導き出すとともに、議決によって予算委員会の意思を決定することである。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="13">
+                        <ArticleCaption>（運営）</ArticleCaption>
+                        <ArticleTitle>第13条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>本会議は、議長及び議長団によって運営される。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>本会議に関する事項は、規約に定めることのほか、議事進行規程をはじめとする規程及び議長規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="14">
+                        <ArticleCaption>（会議の開催）</ArticleCaption>
+                        <ArticleTitle>第14条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>本会議は、議長が各委員を召集することで開催される。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>議長は、次に掲げるときは、直ちに本会議を召集しなければならない。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>第3条に定める各機関又は他自治機関からの要請があったとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員5名以上の連署により本会議の召集が要求されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>会議たる本会議の議事は、原則として発議された議案の審議とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="15">
+                        <ArticleCaption>（公開）</ArticleCaption>
+                        <ArticleTitle>第15条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>本会議は、特別に秘密会とする議決があった場合を除いて麻布生に対して公開されなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>議事録はこれを作成し、必ず公開しなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="15_1">
+                        <ArticleCaption>（秘密会）</ArticleCaption>
+                        <ArticleTitle>第15条の1</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>秘密会は、特別の議決によって開催を決し、予算委員以外の生徒に対して、会議を非公開にすることによって行う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>この規定は、議決によって参考人を招致することを妨げない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>会議に出席した予算委員及び参考人は、秘密会の内容を秘匿する義務を負う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>秘密会の議事録は、特別の議決によらずこれを公開してはならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="2">
+                    <SectionTitle>第2節 小委員会</SectionTitle>
+                    <Division Num="1">
+                        <DivisionTitle>第1目 総則</DivisionTitle>
+                        <Article Num="16">
+                            <ArticleCaption>（小委員会）</ArticleCaption>
+                            <ArticleTitle>第16条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>小委員会は、本会議のもとに設置される予備審査機関である。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                            <Paragraph Num="2">
+                                <ParagraphNum>2</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence>小委員会は、常任小委員会及び特別小委員会とする。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="17">
+                            <ArticleCaption>（構成）</ArticleCaption>
+                            <ArticleTitle>第17条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>小委員会は、委員長及び委員によって構成する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                            <Paragraph Num="2">
+                                <ParagraphNum>2</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence Num="1">
+                                        委員長は、委員会の議事を整理し、会議を運営するとともに、委員会の事務を統括し、その執行において委員を指揮する。</Sentence>
+                                    <Sentence Num="2">委員長の定数は一名とし、本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                            <Paragraph Num="3">
+                                <ParagraphNum>3</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence Num="1">小委員会は、副委員長をおくことができる。</Sentence>
+                                    <Sentence Num="2">
+                                        副委員長は、委員長を助け、委員長に事故のあるとき、または委員長からの委任を受けたとき、委員長の職務を臨時に代理する。</Sentence>
+                                    <Sentence Num="3">副委員長の定数は一名とし、小委員会において委員のうちから互選する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                            <Paragraph Num="4">
+                                <ParagraphNum>4</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence Num="1">委員は、委員会に属し、審査及び議論に参画し、及び委員長の下で委員会の事務を行う。</Sentence>
+                                    <Sentence Num="2">
+                                        委員の定数は、常任小委員会においては規程により定め、特別小委員会においては本会議の議決において定める。</Sentence>
+                                    <Sentence Num="3">
+                                        常任小委員会の委員は本会議における選挙によって予算委員のうちから選出し、特別小委員会の委員は小委員会への参加の意思を示した予算委員のうちから小委員長が任命する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                            <Paragraph Num="5">
+                                <ParagraphNum>5</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence Num="1">小委員会は、特別委員をおくことができる。</Sentence>
+                                    <Sentence Num="2">
+                                        特別委員は、小委員会の所掌事務に関して専門の知識を有し、もしくは調査を行い、または議論に参画する。</Sentence>
+                                    <Sentence Num="3">特別委員は、参加の意思を示した麻布生のうちから小委員長が任命する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="18">
+                            <ArticleCaption>（任務）</ArticleCaption>
+                            <ArticleTitle>第18条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>
+                                        小委員会の任務は、本会議から付託された議案を審査し、及びその部門の属する積極的な議論、並びにこれらに資する事務を行うことである。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="19">
+                            <ArticleCaption>（運営）</ArticleCaption>
+                            <ArticleTitle>第19条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>小委員会に関する事項は、規約に定めることのほか、小委員会規程をはじめとする規程及び議長規則において定める。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="20">
+                            <ArticleCaption>（離職等）</ArticleCaption>
+                            <ArticleTitle>第20条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>小委員会の委員長及び委員は、次に掲げる事由によってのみ離職し、失職し、解職され、または辞職する。</Sentence>
+                                </ParagraphSentence>
+                                <Item Num="1">
+                                    <ItemTitle>(1)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>任期を満了したことによって離職するとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="2">
+                                    <ItemTitle>(2)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>死亡したことによって離職するとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="3">
+                                    <ItemTitle>(3)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>
+                                            重大な事故によって、それ以上小委員会の委員長又は委員たるの職務を全うすることが不可能であると本会議において判断されたことによって離職せられるとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="4">
+                                    <ItemTitle>(4)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>退学によって失職するとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="5">
+                                    <ItemTitle>(5)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>懲罰によって除名、解職されたとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="6">
+                                    <ItemTitle>(6)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>第2項の規定により辞職したとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="7">
+                                    <ItemTitle>(7)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>兼職禁止規定に反したことによって失職するとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                                <Item Num="8">
+                                    <ItemTitle>(8)</ItemTitle>
+                                    <ItemSentence>
+                                        <Sentence>予算委員でなくなったことにより失職するとき</Sentence>
+                                    </ItemSentence>
+                                </Item>
+                            </Paragraph>
+                            <Paragraph Num="2">
+                                <ParagraphNum>2</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence Num="1" Function="main">
+                                        小委員会の委員長及び委員は、辞職しようとするとき、議長に辞表を提出して本会議に承認を求めなければならない。</Sentence>
+                                    <Sentence Num="2" Function="proviso">
+                                        ただし、特別小委員会の委員はこの限りではなく、当該特別小委員会の委員長に辞表を提出することで辞職することができる。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="21">
+                            <ArticleCaption>（設置）</ArticleCaption>
+                            <ArticleTitle>第21条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>常任小委員会は、規約または規程で定めるところにより設置する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                            <Paragraph Num="2">
+                                <ParagraphNum>2</ParagraphNum>
+                                <ParagraphSentence>
+                                    <Sentence>特別小委員会は、本会議の議決により設置する。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="22">
+                            <ArticleCaption>（権限）</ArticleCaption>
+                            <ArticleTitle>第22条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>小委員会は、その議により、本会議に議案を提出することができる。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                    </Division>
+                    <Division Num="2">
+                        <DivisionTitle>第2目 懲罰委員会</DivisionTitle>
+                        <Article Num="23">
+                            <ArticleCaption>（懲罰委員会）</ArticleCaption>
+                            <ArticleTitle>第23条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>懲罰委員会は、第21条に基づき設置される常任小委員会である。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="24">
+                            <ArticleCaption>（任務）</ArticleCaption>
+                            <ArticleTitle>第24条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>懲罰委員会の任務は、懲罰規程の運用を司り、委員に対する懲罰の案等を立案または審査することである。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                        <Article Num="25">
+                            <ArticleCaption>（運営）</ArticleCaption>
+                            <ArticleTitle>第25条</ArticleTitle>
+                            <Paragraph Num="1">
+                                <ParagraphNum />
+                                <ParagraphSentence>
+                                    <Sentence>懲罰委員会に関する事項は、規約に定めることのほか、小委員会規程において定める。</Sentence>
+                                </ParagraphSentence>
+                            </Paragraph>
+                        </Article>
+                    </Division>
+                </Section>
+                <Section Num="3">
+                    <SectionTitle>第3節 議長及び議長団</SectionTitle>
+                    <Article Num="26">
+                        <ArticleCaption>（議長）</ArticleCaption>
+                        <ArticleTitle>第26条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>議長は、予算委員会を代表し、予算委員会及び本会議を運営する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">議長の定数は一名とし、議長は本会議における選挙によって選出する。</Sentence>
+                                <Sentence Num="2">
+                                    議長の選挙は、新たな活動年度の開始ののち、全ての議事に優先して、前年度議長のもとに予算委員のうちから選挙する。</Sentence>
+                                <Sentence Num="3">
+                                    議長の任期は、予算委員会の活動年度に準ずるものとし、任期を終えてから新たな議長が選挙されるまでの期間は、引き続きその職務を行う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="27">
+                        <ArticleCaption>（議長団）</ArticleCaption>
+                        <ArticleTitle>第27条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>議長団は、議長を長とし、議長の所管に属する事務を司る。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="28">
+                        <ArticleCaption>（構成）</ArticleCaption>
+                        <ArticleTitle>第28条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>議長団は、議長、副議長、書記及び書記補によって構成する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">
+                                    副議長は、議長を助け、議長に事故のあるとき、または議長からの委任を受けたとき、議長の職務を臨時に代理する。</Sentence>
+                                <Sentence Num="2">副議長の定数は一名とし、副議長は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">
+                                    書記は、議長の命により議事日程を作成し、議事録を作成し、並びに議長及び副議長の双方に事故のあるとき議長の職務を臨時に代理する。</Sentence>
+                                <Sentence Num="2">書記の定数は二名とし、書記は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">書記補は、議長の命により、書記の事務を助けるほか、議長団の事務を分掌する。</Sentence>
+                                <Sentence Num="2">書記補の定数は議長の定めるところとし、書記補は、就任を希望した麻布生のうちから議長が任免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="5">
+                            <ParagraphNum>5</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    副議長、書記及び書記補の任期は議長に準ずるものとし、任期を終えてから新たな議長が選挙されるまでの期間は、引き続きその職務を行う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="29">
+                        <ArticleCaption>（任務）</ArticleCaption>
+                        <ArticleTitle>第29条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence Num="1">
+                                    議長の任務は、予算委員会及び本会議を運営し、議事を整理し、本会議及び小委員会の事務を掌理するとともに、予算委員会を代表することである。</Sentence>
+                                <Sentence Num="2">議長は、事務局をして公印を管理させる。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>議長団の職にあるものは、その服務において、常に冷静かつ厳正中立でなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>議長の職務を行うものは、その職務によらない発言をしてはならないほか、表決をすることはできない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="30">
+                        <ArticleCaption>（運営）</ArticleCaption>
+                        <ArticleTitle>第30条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>議長団に関する事項は、規約に定めることのほか、議事進行規程をはじめとする規程及び議長規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="31">
+                        <ArticleCaption>（離職等）</ArticleCaption>
+                        <ArticleTitle>第31条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>議長、副議長及び書記は、次に掲げる事由によってのみ離職し、失職し、解職され、または辞職する。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>任期を満了したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>死亡したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>
+                                        重大な事故によって、それ以上議長、副議長又は書記たるの職務を全うすることが不可能であると本会議において判断されたことによって離職せられるとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="4">
+                                <ItemTitle>(4)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>退学によって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="5">
+                                <ItemTitle>(5)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>懲罰によって除名、解職されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="6">
+                                <ItemTitle>(6)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>第2項の規定により辞職したとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="7">
+                                <ItemTitle>(7)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>兼職禁止規定に反したことによって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="8">
+                                <ItemTitle>(8)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員でなくなったことにより失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="9">
+                                <ItemTitle>(9)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>前各号に掲げるもののほか、規程または協定に定める要件を満たしたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">
+                                    議長は、辞職しようとするとき、副議長に辞表及び当該辞表の審議に係る本会議の運営を委任し、本会議に承認を求めなければならない。</Sentence>
+                                <Sentence Num="2">副議長及び書記は、辞職しようとするとき、議長に辞表を提出して本会議に承認を求めなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    その他、議長の一身に関わる議案については、副議長が議長の職を臨時に代理して審議を行い、副議長の一身に関わる議案については、必ず議長がその職を行わなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="4">
+                    <SectionTitle>第4節 監査局</SectionTitle>
+                    <Article Num="32">
+                        <ArticleCaption>（監査局）</ArticleCaption>
+                        <ArticleTitle>第32条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>
+                                    監査局は、予算委員会の有する予算配分団体としての予算被配分団体に対する監査の任務、並びに文化祭実行委員会及び運動会実行委員会の監督及び監査の任務に関する事務を司る、本会議に附置される機関である。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="33">
+                        <ArticleCaption>（構成）</ArticleCaption>
+                        <ArticleTitle>第33条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>監査局は、監査局長、監査局参事及び監査局職員によって構成する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">監査局長は、監査局の事務を統括し、監査局参事の服務について、これを統督する。</Sentence>
+                                <Sentence Num="2">監査局長の定数は一名とし、監査局長は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">監査局は、監査局次長をおくことができる。</Sentence>
+                                <Sentence Num="2">
+                                    監査局次長は、監査局長を助け、監査局長に事故のあるとき、または監査局長からの委任を受けたとき、監査局長の職務を臨時に代理する。</Sentence>
+                                <Sentence Num="3">監査局次長の定数は一名または二名とし、監査局参事のうちから互選し、監査局長がこれを任命する。</Sentence>
+                                <Sentence Num="4">また、局議の議決により、監査局長がこれを罷免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">監査局参事は、監査局長のもとで監査局の事務を行う。</Sentence>
+                                <Sentence Num="2">
+                                    監査局参事の定数は監査局長の定めるところとし、監査局参事は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="5">
+                            <ParagraphNum>5</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">監査局職員は、監査局長のもとで監査局の事務を行う。</Sentence>
+                                <Sentence Num="2">
+                                    監査局職員の定数は監査局長の定めるところとし、監査局職員は、就任を希望した麻布生のうちから、監査局長が任免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="6">
+                            <ParagraphNum>6</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    監査局長、監査局参事及び監査局職員の任期は、予算委員会の活動年度に準ずるものとし、任期を終えてから新たな監査局長が選挙されるまでの期間は、引き続きその職務を行う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="34">
+                        <ArticleCaption>（任務）</ArticleCaption>
+                        <ArticleTitle>第34条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>
+                                    監査局の任務は、全体予算及び全体決算、並びに自治機関をはじめとする予算被配分団体の予算及び決算を検査し、予算被配分団体の会計能力及び公費を収受する団体として最低限保つべき秩序の保たれていることを監査し、及び文化祭実行委員会及び運動会実行委員会の規則類に則り、文化祭実行委員会及び運動会実行委員会の活動を監査し不祥事の調査等を行うことである。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="35">
+                        <ArticleCaption>（運営）</ArticleCaption>
+                        <ArticleTitle>第35条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>監査局に関する事項は、規約に定めることのほか、監査局規程をはじめとする規程及び監査局規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>監査局長及び監査局参事は、常に公正でなければならず、その監査対象との兼職は厳重に禁止されなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="36">
+                        <ArticleCaption>（離職等）</ArticleCaption>
+                        <ArticleTitle>第36条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>監査局長及び監査局参事は、次に掲げる事由によってのみ離職し、失職し、解職され、または辞職する。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>任期を満了したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>死亡したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>
+                                        重大な事故によって、それ以上監査局長または監査局参事たるの職務を全うすることが不可能であると本会議において判断されたことによって離職せられるとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="4">
+                                <ItemTitle>(4)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>退学によって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="5">
+                                <ItemTitle>(5)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>懲罰によって除名、解職されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="6">
+                                <ItemTitle>(6)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>第2項の規定により辞職したとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="7">
+                                <ItemTitle>(7)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>兼職禁止規定に反したことによって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="8">
+                                <ItemTitle>(8)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員でなくなったことにより失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="9">
+                                <ItemTitle>(9)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>前各号に掲げるもののほか、規程または協定に定める要件を満たしたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>監査局長及び監査局参事は、辞職しようとするとき、議長に辞表を提出して本会議に承認を求めなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="5">
+                    <SectionTitle>第5節 法制局</SectionTitle>
+                    <Article Num="37">
+                        <ArticleCaption>（法制局）</ArticleCaption>
+                        <ArticleTitle>第37条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>法制局は、法制等の規則類に関すること、及び文書一般に関することを司る機関である。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="38">
+                        <ArticleCaption>（構成）</ArticleCaption>
+                        <ArticleTitle>第38条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>法制局は、法制局長、法制局参事及び法制局職員によって構成する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">法制局長は、法制局の事務を統括し、法制局職員の服務について、これを統督する。</Sentence>
+                                <Sentence Num="2">法制局長の定数は一名とし、法制局長は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">法制局は、法制局次長をおくことができる。</Sentence>
+                                <Sentence Num="2">
+                                    法制局次長は、法制局長を助け、法制局長に事故のあるとき、または法制局長からの委任を受けたとき、法制局長の職務を臨時に代理する。</Sentence>
+                                <Sentence Num="3">法制局次長の定数は一名または二名とし、法制局参事のうちから互選し、法制局長がこれを任命する。</Sentence>
+                                <Sentence Num="4">また、局議の議決により、法制局長がこれを罷免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1" Function="main">法制局参事は、法制局長のもとで法制局の事務を行う。</Sentence>
+                                <Sentence Num="2" Function="main">
+                                    法制局参事の定数は法制局長の定めるところとし、法制局参事は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                                <Sentence Num="3" Function="proviso">
+                                    ただし、議長と法制局長の協議により、参加の意思を示した予算委員のうちから、法制局長が任免するものとすることができる。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="5">
+                            <ParagraphNum>5</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">法制局職員は、法制局長のもとで法制局の事務を行う。</Sentence>
+                                <Sentence Num="2">
+                                    法制局職員の定数は法制局長の定めるところとし、法制局職員は、就任を希望した麻布生のうちから、法制局長が任免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="6">
+                            <ParagraphNum>6</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    法制局長、法制局参事及び法制局職員の任期は、予算委員会の活動年度に準ずるものとし、任期を終えてから新たな法制局長が選挙されるまでの期間は、引き続きその職務を行う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="39">
+                        <ArticleCaption>（任務）</ArticleCaption>
+                        <ArticleTitle>第39条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>
+                                    法制局の任務は、予算委員会における規則類の案や文書等について審査を行い、これに意見を附し及び所要の修正を加え、規則類について立案を行い、規則類及び文書等に関する問題について各機関及び予算委員に対し意見を述べ、また、委員または各機関の規則類の案の立案及び文書の作成について補佐し、及びその他法制及び文書一般に関する事務を行うことである。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="40">
+                        <ArticleCaption>（運営）</ArticleCaption>
+                        <ArticleTitle>第40条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>法制局に関する事項は、規約に定めることのほか、法制局規程をはじめとする規程及び法制局規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="41">
+                        <ArticleCaption>（離職等）</ArticleCaption>
+                        <ArticleTitle>第41条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>法制局長及び法制局参事は、次に掲げる事由によってのみ離職し、失職し、解職され、または辞職する。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>任期を満了したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>死亡したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>
+                                        重大な事故によって、それ以上法制局長または法制局参事たるの職務を全うすることが不可能であると本会議において判断されたことによって離職せられるとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="4">
+                                <ItemTitle>(4)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>退学によって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="5">
+                                <ItemTitle>(5)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>懲罰によって除名、解職されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="6">
+                                <ItemTitle>(6)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>第2項の規定により辞職したとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="7">
+                                <ItemTitle>(7)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>兼職禁止規定に反したことによって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="8">
+                                <ItemTitle>(8)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員でなくなったことにより失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="9">
+                                <ItemTitle>(9)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>前各号に掲げるもののほか、規程または協定に定める要件を満たしたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>法制局長及び法制局参事は、辞職しようとするとき、議長に辞表を提出して本会議に承認を求めなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="6">
+                    <SectionTitle>第6節 事務局</SectionTitle>
+                    <Article Num="42">
+                        <ArticleCaption>（事務局）</ArticleCaption>
+                        <ArticleTitle>第42条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence Num="1" Function="main">事務局は、予算委員会が必要とする事務一般を執行する機関である。</Sentence>
+                                <Sentence Num="2" Function="proviso">ただし、他の機関の掌理するものについてはこの限りではない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="43">
+                        <ArticleCaption>（構成）</ArticleCaption>
+                        <ArticleTitle>第43条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>事務局は、事務局長、事務局次長、事務局参事及び事務局職員によって構成する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">事務局長は、事務局の事務を統括し、事務局職員の服務について、これを統督する。</Sentence>
+                                <Sentence Num="2">事務局長の定数は一名とし、事務局長は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">事務局は、事務局次長をおくことができる。</Sentence>
+                                <Sentence Num="2">
+                                    事務局次長は、事務局長を助け、事務局長に事故のあるとき、または事務局長からの委任を受けたとき、事務局長の職務を臨時に代理する。</Sentence>
+                                <Sentence Num="3">事務局次長の定数は一名または二名とし、事務局参事のうちから互選し、事務局長がこれを任命する。</Sentence>
+                                <Sentence Num="4">また、局議の議決により、事務局長がこれを罷免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1" Function="main">事務局参事は、事務局長のもとで事務局の事務を行う。</Sentence>
+                                <Sentence Num="2" Function="main">
+                                    事務局参事の定数は事務局長の定めるところとし、事務局参事は本会議における選挙によって予算委員のうちから選出する。</Sentence>
+                                <Sentence Num="3" Function="proviso">
+                                    ただし、議長と事務局長の協議により、参加の意思を示した予算委員のうちから、事務局長が任免するものとすることができる。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="5">
+                            <ParagraphNum>5</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence Num="1">事務局職員は、事務局長のもとで事務局の事務を行う。</Sentence>
+                                <Sentence Num="2">
+                                    事務局職員の定数は事務局長の定めるところとし、事務局職員は、就任を希望した麻布生のうちから、事務局長が任免する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="6">
+                            <ParagraphNum>6</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    事務局長、事務局次長、事務局参事及び事務局職員の任期は、予算委員会の活動年度に準ずるものとし、任期を終えてから新たな事務局長が選挙されるまでの期間は、引き続きその職務を行う。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="44">
+                        <ArticleCaption>（任務）</ArticleCaption>
+                        <ArticleTitle>第44条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>
+                                    事務局の任務は、事務局規程に定めるような所掌事務のほか、他の機関に属さない予算委員会における事務を能動的に執行することである。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="45">
+                        <ArticleCaption>（運営）</ArticleCaption>
+                        <ArticleTitle>第45条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>事務局に関する事項は、規約に定めることのほか、事務局規程をはじめとする規程及び事務局規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="46">
+                        <ArticleCaption>（離職等）</ArticleCaption>
+                        <ArticleTitle>第46条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>事務局長及び事務局参事は、次に掲げる事由によってのみ離職し、失職し、解職され、または辞職する。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>任期を満了したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>死亡したことによって離職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>
+                                        重大な事故によって、それ以上事務局長または事務局参事たるの職務を全うすることが不可能であると本会議において判断されたことによって離職せられるとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="4">
+                                <ItemTitle>(4)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>退学によって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="5">
+                                <ItemTitle>(5)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>懲罰によって除名、解職されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="6">
+                                <ItemTitle>(6)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>第2項の規定により辞職したとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="7">
+                                <ItemTitle>(7)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>兼職禁止規定に反したことによって失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="8">
+                                <ItemTitle>(8)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員でなくなったことにより失職するとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="9">
+                                <ItemTitle>(9)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>前各号に掲げるもののほか、規程または協定に定める要件を満たしたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>事務局長及び事務局参事は、辞職しようとするとき、議長に辞表を提出して本会議に承認を求めなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="7">
+                    <SectionTitle>第7節 参議会</SectionTitle>
+                    <Article Num="46_1">
+                        <ArticleCaption>（参議会）</ArticleCaption>
+                        <ArticleTitle>第46条の1</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>参議会は、予算委員会の各機関による統合調整を行う合議制の機関である。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="46_2">
+                        <ArticleCaption>（構成）</ArticleCaption>
+                        <ArticleTitle>第46条の2</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>参議会は、参議により構成する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>参議は、議長、監査局長、法制局長及び事務局長とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>参議会の意思は、全会一致により決する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="46_3">
+                        <ArticleCaption>（任務）</ArticleCaption>
+                        <ArticleTitle>第46条の3</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>
+                                    参議会の任務は、予算委員会の各機関における職権の行使について、及び諸機関が一体となって行動すべきものについて、統合調整を行うことを任務とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="46_4">
+                        <ArticleCaption>（運営）</ArticleCaption>
+                        <ArticleTitle>第46条の4</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>参議会に関する事項は、規約に定めることのほか、参議会規程をはじめとする規程において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+            </Chapter>
+            <Chapter Num="4">
+                <ChapterTitle>第4章 直接制度</ChapterTitle>
+                <Section Num="1">
+                    <SectionTitle>第1節 全校集会及び学年集会</SectionTitle>
+                    <Article Num="47">
+                        <ArticleCaption>（全校集会）</ArticleCaption>
+                        <ArticleTitle>第47条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>全校からの直接の意思の吸い上げのため、予算委員会は、全校集会を主宰する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>全校集会は、麻布生一般の参加により行われ、全校生徒が議論をし、その意思を決定することを目的とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>全校集会は、自治機関の規約を含む全ての既定事項を超越する効力を有する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>全校集会に関する事項は、規約に定めることのほか、全校集会規程をはじめとする規程、及び議長規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="48">
+                        <ArticleCaption>（開催）</ArticleCaption>
+                        <ArticleTitle>第48条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>全校集会は、次に掲げるようなときに、予算委員会によって開催される。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員会本会議において、全校集会を開催する旨の議決が行われたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>
+                                        予算委員会に対して、全校集会を求める、高等学校第二学年以下の麻布生（有権者という。以下同じ。）の総数の五分の一以上の署名が提出されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>全校集会の、前条第3項の機能は、全校生徒の四分の一以上の出席によって有効となる。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="49">
+                        <ArticleCaption>（学年集会）</ArticleCaption>
+                        <ArticleTitle>第49条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>特定の学年の意思を直接的に吸い上げるため、予算委員会は、学年集会を主宰する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>学年集会は、当該学年の麻布生一般の参加により行われ、学年を通じて議論をし、その意思を決定することを目的とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>学年集会は、当該学年の意思を決し、及び当該学年を選出基盤とする委員等を選出する機能を有する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>学年集会に関する事項は、規約に定めることのほか、学年集会規程をはじめとする規程、及び議長規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="50">
+                        <ArticleCaption>（開催）</ArticleCaption>
+                        <ArticleTitle>第50条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>学年集会は、次に掲げるようなときに、予算委員会によって開催される。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員会本会議において、学年集会を開催する旨の議決が行われたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員会に対して、学年集会の開催を求める、当該学年の生徒の総数の七分の一以上の署名が提出されたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>予算委員会その他の自治機関の、当該学年を選出基盤とする委員等を選挙する必要が生じたとき</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>学年集会の、前条第3項の機能は、当該学年の生徒の四分の一以上の出席によって有効となる。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="2">
+                    <SectionTitle>第2節 クラス審議</SectionTitle>
+                    <Article Num="51">
+                        <ArticleCaption>（クラス審議）</ArticleCaption>
+                        <ArticleTitle>第51条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>全校からの直接の意思の吸い上げのため、予算委員会は、クラス審議を開催する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    クラス審議は、本校高等学校第二学年以下のクラスにおける議論及び採決、並びにこれの集約によって行われ、予算委員会が扱う事案のうち、特に重要性が認められるものに関して、全校の意思を直接吸い上げること、並びに各クラスの意思の表明及びクラスでの決議等に資することを目的とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    クラス審議に付した事件について、過半数のクラスの不承認があったとき、当該議案は全校において不承認とされたものと見做され、廃案となる。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>クラス審議に関する事項は、規約に定めることのほか、クラス審議規程をはじめとする規程、及び議長規則において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="52">
+                        <ArticleCaption>（執行）</ArticleCaption>
+                        <ArticleTitle>第52条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>予算委員会は、次に掲げるような事件について、クラス審議に承認を求めなければならない。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>本会議において承認された全体予算及び全体決算、並びに自治機関をはじめとする予算被配分団体の予算及び決算</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>本会議において承認された規約の改正案</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>
+                                        本会議において承認された規程の案であって、改正することで麻布生に義務を課しまたは麻布生の権利を制限するようなもの</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="4">
+                                <ItemTitle>(4)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>その他本会議の議決により、クラス審議の承認を必要とすると判断された事案</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    クラス審議による承認を要する事件について、全校投票または全校集会の承認を得たものは、クラス審議による承認を得たものと見做す。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+                <Section Num="3">
+                    <SectionTitle>第3節 直接請求</SectionTitle>
+                    <Article Num="53">
+                        <ArticleCaption>（直接請求）</ArticleCaption>
+                        <ArticleTitle>第53条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence Num="1">
+                                    全て麻布生は、有権者の総数の三十五分の一以上の署名を趣意書に添えることで、予算委員会に対して、当該趣意書を予算委員会本会議で審議するように求めることができる。</Sentence>
+                                <Sentence Num="2">これを、直接請求という。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>直接請求を受けたとき、議長は速やかに本会議を召集し、当該直接請求を必ず本会議に議題として取り扱わなければならない。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+            </Chapter>
+            <Chapter Num="5">
+                <ChapterTitle>第5章 財務</ChapterTitle>
+                <Article Num="54">
+                    <ArticleCaption>（会計年度）</ArticleCaption>
+                    <ArticleTitle>第54条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会の会計年度は、毎年六月初日に始まり、翌年五月末日に終わるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">予算委員会の会計は、一般会計及び特別会計とする。</Sentence>
+                            <Sentence Num="2">
+                                予算委員会が特定の事業を行い、特定の資金を保有してその運用を行う場合その他特定の収入を以て特定の支出に充て、一般の会計を区分して経理する必要がある場合に限り、本会議の議によって特別会計を設置するものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="55">
+                    <ArticleCaption>（予算配分機関及び予算被配分団体）</ArticleCaption>
+                    <ArticleTitle>第55条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                生徒活動費を管理する機関としての予算委員会を特に予算配分機関と称し、予算委員会の管理に属する生徒活動費及びプール金の配分を受け、または配分を受ける権利を有する全ての団体を、予算被配分団体と称する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                予算委員会から直接生徒活動費及びプール金の配分を受ける団体を、一次予算被配分団体と称し、一次予算被配分団体を通じて生徒活動費及びプール金の配分を受ける団体を二次予算被配分団体と称する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="56">
+                    <ArticleCaption>（予算及び決算）</ArticleCaption>
+                    <ArticleTitle>第56条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">予算被配分団体の収入及び支出は、全て予算に編入しなければならない。</Sentence>
+                            <Sentence Num="2">全ての金銭の支出は、成立した予算によらなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">全て予算被配分団体は、その予算の執行を終えたのち、全ての収支を決算に編入しなければならない。</Sentence>
+                            <Sentence Num="2">全ての予算の執行は、決算の成立によって完成する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="57">
+                    <ArticleCaption>（全体予算）</ArticleCaption>
+                    <ArticleTitle>第57条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                一次予算被配分団体に対して、当該年度の生徒活動費の総額をどのように配分するかを定める予算（全体予算という。以下同じ。）を、各会計年度の開始前に成立させなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>全体予算は、予算委員会事務局がこれを編成し、本会議及びクラス審議において承認されることで成立する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="58">
+                    <ArticleCaption>（予算被配分団体の予算案）</ArticleCaption>
+                    <ArticleTitle>第58条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                一次予算被配分団体の予算は、予算委員会に対して、全体予算に基づいて配分される生徒活動費の使途をはじめとする予算案を提出し、本会議及びクラス審議において承認されることで成立する。</Sentence>
+                            <Sentence Num="2">
+                                一次予算被配分団体を通じて生徒活動費の配分を受ける予算被配分団体（二次予算被配分団体という。以下同じ。）の予算案は、一次予算被配分団体の予算案に含まれていなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="59">
+                    <ArticleCaption>（予算被配分団体の決算）</ArticleCaption>
+                    <ArticleTitle>第59条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                一次予算被配分団体の決算は、予算委員会に対して、執行した予算について決算を提出し、本会議及びクラス審議において承認されることで成立する。</Sentence>
+                            <Sentence Num="2">二次予算被配分団体の決算は、一次予算被配分団体の決算に含まれていなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="60">
+                    <ArticleCaption>（全体決算）</ArticleCaption>
+                    <ArticleTitle>第60条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会は、全ての予算被配分団体の決算の成立ののち、全体予算の執行についての決算を成立させなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>全体決算は、予算委員会事務局がこれを編成し、本会議及びクラス審議において承認されることで成立する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="61">
+                    <ArticleCaption>（特別会計の予算及び決算）</ArticleCaption>
+                    <ArticleTitle>第61条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">特別会計の予算及び決算は、前4条によらず、独立して行われるものとする。</Sentence>
+                            <Sentence Num="2">特別会計においても、全ての予算及び決算は本会議及びクラス審議において承認されることで成立するものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="62">
+                    <ArticleCaption>（予算被配分特別団体）</ArticleCaption>
+                    <ArticleTitle>第62条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会は、会計規程に定める通り、一次予算被配分団体として、予算被配分特別団体を認定し、予算を配分することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="63">
+                    <ArticleCaption>（生徒活動費）</ArticleCaption>
+                    <ArticleTitle>第63条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">全ての予算は、主として麻布生の納入する生徒活動費を財源とする。</Sentence>
+                            <Sentence Num="2">生徒活動費の徴収は、学校法人麻布学園に委託するものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                生徒活動費の変更は、予算委員会本会議における過半数の賛成で、予算委員会が、これを発議し、全校に提案してその承認を求めなければならない。</Sentence>
+                            <Sentence Num="2">この承認には、全校投票において、その過半数の賛成を必要とする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="64">
+                    <ArticleCaption>（支出証明）</ArticleCaption>
+                    <ArticleTitle>第64条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                生徒活動費の使用にあたっては、予算委員会は、生徒委員会及び麻布学園事務所に対して、生徒活動費支出証明書を提出しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="65">
+                    <ArticleCaption>（余剰金）</ArticleCaption>
+                    <ArticleTitle>第65条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算被配分団体の予算の執行に際して生じた余剰金は、決算の成立に伴い、原則として予算委員会に返還されなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>予算委員会に返還された余剰金は、プール金に繰り入れ、または次年度の全体予算において、前年度繰越金として収入とするものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="66">
+                    <ArticleCaption>（プール金）</ArticleCaption>
+                    <ArticleTitle>第66条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                予算委員会は、各会計年度の予算の執行に際して生じた余剰金、及び一般会計の外において発生した収入について、これをプール金として貯蓄するものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                プール金は、予算委員会会計規程に則り、予算委員会本会議及びクラス審議の承認を得ることによって、予算被配分団体の予算の収入に編入することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="6">
+                <ChapterTitle>第6章 雑則</ChapterTitle>
+                <Article Num="67">
+                    <ArticleCaption>（規約）</ArticleCaption>
+                    <ArticleTitle>第67条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>本規約は、予算委員会における最高法規である。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                本規約の改正は、予算委員会本会議における過半数の賛成で、予算委員会が、これを発議し、全校に提案してその承認を求めなければならない。</Sentence>
+                            <Sentence Num="2">この承認には、全校投票において、その過半数の賛成を必要とする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>本規約の改正は、予算委員会の活動理念に則り、慎重に行われなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="68">
+                    <ArticleCaption>（規程）</ArticleCaption>
+                    <ArticleTitle>第68条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会は、本規約に反しない限りにおいて、本会議の議決により、規程を制定、改正及び廃止することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="69">
+                    <ArticleCaption>（規則）</ArticleCaption>
+                    <ArticleTitle>第69条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1" Function="main">
+                                予算委員会の各機関は、本規約及び規程を実施するために、規則を制定することができる。</Sentence>
+                            <Sentence Num="2" Function="proviso">
+                                ただし、規則には特に規約又は規程による委任がある場合を除いて、罰則を設けることができない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                予算委員会の各機関が定める規則の種類は、次に掲げる通りとし、当該規則を定める権限は、当該各号に掲げる機関が有し、当該規則が効力を有し得る事項は、当該各号に定める通りとする。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Column>
+                                    <Sentence>議長規則</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>議長</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>本会議並びに全校集会、学年集会及びクラス審議の運営に係る事項、及び各規程において委任された事項</Sentence>
+                                </Column>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Column>
+                                    <Sentence>監査局規則</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>監査局</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>
+                                        予算案及び決算の検査に必要な事項、予算被配分団体に対する監査に必要な事項、文化祭実行委員会及び運動会実行委員会に対する監査に必要な事項、並びに各規程において委任された事項</Sentence>
+                                </Column>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Column>
+                                    <Sentence>法制局規則</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>法制局</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>
+                                        予算委員会における規則類の案やそのほか議案をはじめとする文書についての審査に必要な事項、法制局による規則類の立案事務に関する事項、規則類の立案及び議案の起草をはじめとする文書及びその作成に関する問題に関する事項、その他予算委員会における法制及び文書一般に関する事務に関する事項、並びに各規程において委任された事項</Sentence>
+                                </Column>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Column>
+                                    <Sentence>事務局規則</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>事務局</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>事務局の所掌事務の執行において必要な事項、及び各規程において委任された事項</Sentence>
+                                </Column>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Column>
+                                    <Sentence>参議会規則</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>参議会</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>各機関の連絡及び調整、複数もしくは全部の機関にわたって行われる統合政策の推進その他の事務、</Sentence>
+                                </Column>
+                                <Column>
+                                    <Sentence>
+                                        重要政策に関するもののほか、必要と認める情報の収集、分析及び管理に関する事務、その他参議会及びその所管する機関の所掌事務の執行において必要な事項、並びに各規程において必要とされた事項</Sentence>
+                                </Column>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                </Article>
+                <Article Num="70">
+                    <ArticleCaption>（協定等）</ArticleCaption>
+                    <ArticleTitle>第70条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会の各機関は他の自治機関その他の機関と、協定等を締結することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>前項の協定を締結するとき、締結しようとする予算委員会の機関は、本会議に承認を求めなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="71">
+                    <ArticleCaption>（効力）</ArticleCaption>
+                    <ArticleTitle>第71条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会は、規約、規程及び規則に反さない範囲において活動を行う。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="72">
+                    <ArticleCaption>（非常事態）</ArticleCaption>
+                    <ArticleTitle>第72条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">次に掲げるような場合を、非常事態とする。</Sentence>
+                            <Sentence Num="2">非常事態は、非常事態宣言によって成立する。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>予算委員会の制度、独立が重大かつ直接に脅かされ、かつ規約上の公権力の正常な運営が阻害される場合</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>予算委員会に対する対外的な脅威が、安危に関わる重大な事態をもたらしている場合</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>自然災害等により、緊急に措置が必要な場合</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1" Function="main">
+                                非常事態と認められる状況において、議長は、本会議の承認を経て、非常事態を宣言する。</Sentence>
+                            <Sentence Num="2" Function="proviso">
+                                ただし、本会議の開議を待つ猶予の無いとき、議長は、その承認を待たずに、15日以内に限って非常事態を宣言することができる。</Sentence>
+                            <Sentence Num="3" Function="main">
+                                この場合、当該非常事態宣言は、可及的速やかに本会議の承認を得なければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1" Function="main">
+                                非常事態において、予算委員会は、その議決により、本条を除く予算委員会規約及びこれに基づく規定を超越する措置を講じることができる。</Sentence>
+                            <Sentence Num="2" Function="proviso">
+                                ただし、本会議の開議を待つ猶予の無いときは、議長は、本規約に反さない範囲において、必要な措置を講じることができるほか、本会議の決定を代理することができる。</Sentence>
+                            <Sentence Num="3" Function="main">
+                                この場合、当該措置は、可及的速やかに本会議の承認を得なければならず、承認を得られなかったときは、当然、当該決定は効力を有さない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="4">
+                        <ParagraphNum>4</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>非常事態においては、予算委員会の活動年度及び予算委員の任期その他これに準ずる任期等の一切は、無期限に延長される。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="5">
+                        <ParagraphNum>5</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>非常事態においては、本会議は、恒常的に開催されるように最大限努められなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="6">
+                        <ParagraphNum>6</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>非常事態は、常に解消に向けて最大限の努力が行われなければならず、これに反する措置は行われてはならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="7">
+                        <ParagraphNum>7</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>非常事態は、議長が、本会議の承認を経て、その解消を認定し、非常事態宣言を解除する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="8">
+                        <ParagraphNum>8</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>本条の規定を濫用することは、絶対にこれを禁ずる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="9">
+                        <ParagraphNum>9</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">参議会は、非常事態にあって、予算委員会を指揮し事態に対処するの権限を有する。</Sentence>
+                            <Sentence Num="2">
+                                議長は、非常事態に関して緊急のため第2項及び第3項により単独で決定を行おうとするときであって、参議会が十分にその機能を有するときは、参議会に諮ってこれを決しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="73">
+                    <ArticleCaption>（特別全校投票）</ArticleCaption>
+                    <ArticleTitle>第73条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                選挙管理委員会規約に定められた、本来選挙管理委員会が行うべき全校投票を予算委員会に委ねる措置が取られた場合、予算委員会は選挙管理委員会規約を準用し、これを執り行わなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="7">
+                <ChapterTitle>第7章 罰則</ChapterTitle>
+                <Article Num="74">
+                    <ArticleCaption>（罰則）</ArticleCaption>
+                    <ArticleTitle>第74条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>本規約への違反に対する罰則は、懲罰規程において定める。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+        </MainProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence>本規約は、2023年4月1日より施行する。</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規約は、この規約が全校投票において承認された日から施行する。</Sentence>
+                        <Sentence Num="2">（注：2024年11月6日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+    </LawBody>
+</Law>
