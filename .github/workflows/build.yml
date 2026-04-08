@@ -146,6 +146,17 @@ jobs:
             python -m scripts.build_index
           fi
 
+      - name: Sync Rules And Metadata To Public
+        if: steps.detect.outputs.has_targets == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf public/rules public/metadata
+          mkdir -p public
+          cp -R rules public/rules
+          cp -R metadata public/metadata
+          echo "Synced rules and metadata into public/."
+
       - name: Configure GitHub Pages
         if: steps.detect.outputs.has_targets == 'true'
         uses: actions/configure-pages@v5
