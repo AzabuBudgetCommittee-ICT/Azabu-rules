@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Law Lang="ja" Num="">
+    <LawBody>
+        <LawTitle>予算委員会小委員会規程</LawTitle>
+        <TOC>
+            <TOCLabel>目次</TOCLabel>
+            <TOCChapter Num="1">
+                <ChapterTitle>第1章 総則</ChapterTitle>
+                <ArticleRange>（第1条・第2条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="2">
+                <ChapterTitle>第2章 小委員会の組織</ChapterTitle>
+                <ArticleRange>（第3条－第9条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="3">
+                <ChapterTitle>第3章 小委員会の会議</ChapterTitle>
+                <ArticleRange>（第10条－第20条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="4">
+                <ChapterTitle>第4章 常任小委員会</ChapterTitle>
+                <TOCSection Num="1">
+                    <SectionTitle>第1節 総則</SectionTitle>
+                    <ArticleRange>（第21条・第22条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="2">
+                    <SectionTitle>第2節 監査局</SectionTitle>
+                    <ArticleRange>（第23条－第27条）</ArticleRange>
+                </TOCSection>
+                <TOCSection Num="3">
+                    <SectionTitle>第3節 法制局</SectionTitle>
+                    <ArticleRange>（第28条－第30条）</ArticleRange>
+                </TOCSection>
+            </TOCChapter>
+            <TOCChapter Num="5">
+                <ChapterTitle>第5章 特別小委員会</ChapterTitle>
+                <ArticleRange>（第31条－第35条）</ArticleRange>
+            </TOCChapter>
+            <TOCChapter Num="6">
+                <ChapterTitle>第6章 雑則</ChapterTitle>
+                <ArticleRange>（第36条）</ArticleRange>
+            </TOCChapter>
+            <TOCSupplProvision>
+                <SupplProvisionLabel>附則</SupplProvisionLabel>
+            </TOCSupplProvision>
+        </TOC>
+        <MainProvision>
+            <Chapter Num="1">
+                <ChapterTitle>第1章 総則</ChapterTitle>
+                <Article Num="1">
+                    <ArticleCaption>（趣旨）</ArticleCaption>
+                    <ArticleTitle>第1条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>この規程は、小委員会の組織及び運営に関し必要な事項を定めるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="2">
+                    <ArticleCaption>（定義）</ArticleCaption>
+                    <ArticleTitle>第2条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>この規程において「自治機関」とは、次に掲げるものをいう。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>予算委員会</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>選挙管理委員会</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>サークル連合</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>文化祭実行委員会</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>運動会実行委員会</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>この規程において「規則案」とは、次に掲げるものをいう。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>規約を改正する案</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>規程を制定、改正又は廃止する案</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>文化祭実行委員会規約を改正する案</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>運動会実行委員会規約を改正する案</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>
+                                    文化祭実行委員会規程を制定し、又は改正する案（文化祭実行委員会規約第64条第1号又は第65条第3号の規定により文化祭実行委員会執行委員会において立案されたものを除く。）</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="6">
+                            <ItemTitle>(6)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>
+                                    運動会実行委員会規程を制定し、又は改正する案（文化祭実行委員会規約第55条第2号又は第56条第3号の規定により運動会実行委員会において立案されたものを除く。）</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="7">
+                            <ItemTitle>(7)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>自治機関（予算委員会を除く。）又は教員と協約（これに類するものを含む。）を締結し、又はその協約を改正する案</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="2">
+                <ChapterTitle>第2章 小委員会の組織</ChapterTitle>
+                <Article Num="3">
+                    <ArticleCaption>（小委員長）</ArticleCaption>
+                    <ArticleTitle>第3条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員長は、小委員会の事務を統括し、小委員会を代表する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="4">
+                    <ArticleCaption>（副委員長）</ArticleCaption>
+                    <ArticleTitle>第4条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員会は、必要と認めるときは、議決により副委員長を置くことができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                副委員長は、小委員長を助け、小委員会の事務を整理し、小委員長に事故があるとき、又は小委員長が欠けたときは、小委員長の職務を代理する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>副委員長は、局を称する常任小委員会にあっては、次長と称する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="4">
+                        <ParagraphNum>4</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>小委員会は、副委員長を置いたときは、遅滞なく、その旨及び副委員長の氏名を本会議において報告しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="5">
+                        <ParagraphNum>5</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>副委員長は、小委員会の会議（第3章において「会議」という。）において、委員の互選により選任する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="5">
+                    <ArticleCaption>（委員）</ArticleCaption>
+                    <ArticleTitle>第5条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>委員は、小委員長の定めるところにより、小委員会の事務をつかさどる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="6">
+                    <ArticleCaption>（特別委員）</ArticleCaption>
+                    <ArticleTitle>第6条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員会は、必要と認めるときは、議決により特別委員を置くことができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>特別委員は、小委員会の所管事項について調査し、又は意見を述べるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>特別委員は、麻布学園の生徒のうちから委嘱する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="7">
+                    <ArticleCaption>（小委員長及び委員等の辞任）</ArticleCaption>
+                    <ArticleTitle>第7条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員長は、辞任しようとするときは、議長に辞表を提出して、本会議で承認を得なければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>委員及び特別委員（以下「委員等」という。）は、辞任しようとするときは、小委員長に辞表を提出しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="8">
+                    <ArticleCaption>（小委員長及び委員の解任）</ArticleCaption>
+                    <ArticleTitle>第8条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員長及び委員は、本会議で不信任が議決されたときは、その職を失う。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="9">
+                    <ArticleCaption>（委員等名簿）</ArticleCaption>
+                    <ArticleTitle>第9条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">
+                                小委員会が設置されたときは、当該小委員会の小委員長は、委員等の名簿を作成し、遅滞なく、議長及び事務局長に提出しなければならない。</Sentence>
+                            <Sentence Num="2">委員等に変更があったときも、同様とする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>事務局長は、前項の名簿を公開しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="3">
+                <ChapterTitle>第3章 小委員会の会議</ChapterTitle>
+                <Article Num="10">
+                    <ArticleCaption>（招集）</ArticleCaption>
+                    <ArticleTitle>第10条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>会議は、小委員長が招集する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                委員は、委員の定数（特別小委員会にあっては、委員の実数。第14条において同じ。）の3分の1以上の委員の連名で、小委員長に対し会議を招集するよう求めることができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>小委員長は、前項の求めがあったときは、遅滞なく、会議を招集しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="4">
+                        <ParagraphNum>4</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>小委員長は、会議を招集しようとするときは、全ての委員等に対しその日時及び場所を通知しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="11">
+                    <ArticleCaption>（会議の日時及び場所の公開）</ArticleCaption>
+                    <ArticleTitle>第11条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員会は、あらかじめ、会議の日時及び場所を公開するよう努めなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="12">
+                    <ArticleCaption>（議決事項）</ArticleCaption>
+                    <ArticleTitle>第12条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>会議は、本会議から付託された議案を審査し、議決する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>会議は、小委員会の所管に属する事務に関する事項について議決することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="3">
+                        <ParagraphNum>3</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                小委員会は、本会議に議案を提出しようとするとき、及び第35条の規定により同条の報告をしようとするときは、会議の議決を経なければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="13">
+                    <ArticleCaption>（本会議中の会議）</ArticleCaption>
+                    <ArticleTitle>第13条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>会議は、本会議の会議中（休憩中を除く。）は、開くことができない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="14">
+                    <ArticleCaption>（開議及び議決の要件）</ArticleCaption>
+                    <ArticleTitle>第14条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>会議は、小委員長が出席し、かつ、委員の定数の過半数の委員が出席しなければ、これを開き、議決することができない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="15">
+                    <ArticleCaption>（議長）</ArticleCaption>
+                    <ArticleTitle>第15条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>会議の議長は、小委員長が務めるものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="16">
+                    <ArticleCaption>（議決の方法）</ArticleCaption>
+                    <ArticleTitle>第16条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>会議の議事は、出席した委員の過半数で決し、可否同数のときは、小委員長の決するところによる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="17">
+                    <ArticleCaption>（出席及び発言の特例）</ArticleCaption>
+                    <ArticleTitle>第17条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>議長、副議長、書記、事務局長及び副事務局長は、会議に出席し、小委員長の許可を得て発言することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="18">
+                    <ArticleCaption>（傍聴）</ArticleCaption>
+                    <ArticleTitle>第18条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>予算委員会の委員のほか、麻布学園の生徒であって小委員長の許可を得た者は、会議を傍聴することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence Num="1">傍聴人の取扱いについては、予算委員会傍聴人参考人規程第8条から第11条までの規定を準用する。</Sentence>
+                            <Sentence Num="2">
+                                この場合において、第9条第1号中「本会議」とあるのは「会議」と、第11条中「この規程」とあるのは「第8条又は第9条の規定」と読み替える。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="19">
+                    <ArticleCaption>（議事の非公開）</ArticleCaption>
+                    <ArticleTitle>第19条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">前条の規定にかかわらず、小委員会は、議決により会議の全部又は一部の議事を非公開とすることができる。</Sentence>
+                            <Sentence Num="2">この場合においては、小委員長は、直ちに傍聴人（予算委員会の委員を除く。）を退場させなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="20">
+                    <ArticleCaption>（会議録）</ArticleCaption>
+                    <ArticleTitle>第20条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員会は、会議ごとに会議録を作成し、会議の日から5日以内にその写しを議長及び事務局長に提出しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>前項の会議録には、次の事項を記載しなければならない。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>会議の日時及び場所</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>会議に出席した委員等の氏名</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>会議を欠席した委員等の氏名</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>第17条の規定により会議に出席した者の氏名</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="5">
+                            <ItemTitle>(5)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>会議の次第</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="6">
+                            <ItemTitle>(6)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>議事の経過</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="4">
+                <ChapterTitle>第4章 常任小委員会</ChapterTitle>
+                <Section Num="1">
+                    <SectionTitle>第1節 総則</SectionTitle>
+                    <Article Num="21">
+                        <ArticleCaption>（設置）</ArticleCaption>
+                        <ArticleTitle>第21条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>予算委員会に、次の常任小委員会を置く。</Sentence>
+                            </ParagraphSentence>
+                            <Item Num="1">
+                                <ItemTitle>(1)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>懲罰委員会</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="2">
+                                <ItemTitle>(2)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>独立執行機関評価制度委員会</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="3">
+                                <ItemTitle>(3)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>外交委員会</Sentence>
+                                </ItemSentence>
+                            </Item>
+                            <Item Num="4">
+                                <ItemTitle>(4)</ItemTitle>
+                                <ItemSentence>
+                                    <Sentence>情報管理審査委員会</Sentence>
+                                </ItemSentence>
+                            </Item>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>懲罰委員会に関する事項は、懲罰規程において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="3">
+                            <ParagraphNum>3</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>
+                                    独立執行機関評価制度委員会に関する事項は、独立執行機関基本規程及び個別規程（独立執行機関基本規程第1条に定めるものをいう。）において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="4">
+                            <ParagraphNum>4</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>外交委員会に関する事項は、外交関係基本規程において定める。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                    <Article Num="22">
+                        <ArticleCaption>（委員に関する事項）</ArticleCaption>
+                        <ArticleTitle>第22条</ArticleTitle>
+                        <Paragraph Num="1">
+                            <ParagraphNum />
+                            <ParagraphSentence>
+                                <Sentence>常任小委員会の委員は、本会議において選挙する。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                        <Paragraph Num="2">
+                            <ParagraphNum>2</ParagraphNum>
+                            <ParagraphSentence>
+                                <Sentence>常任小委員会の委員の資格は、予算委員会の委員とする。</Sentence>
+                            </ParagraphSentence>
+                        </Paragraph>
+                    </Article>
+                </Section>
+            </Chapter>
+            <Chapter Num="5">
+                <ChapterTitle>第5章 特別小委員会</ChapterTitle>
+                <Article Num="23">
+                    <ArticleCaption>（設置の発議等に関する事項）</ArticleCaption>
+                    <ArticleTitle>第23条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                特別小委員会の設置に係る議案（以下この条において「議案」という。）を提出しようとする者は、当該議案の文書のうちに次に掲げる事項を記載しなければならない。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>特別小委員会の名称</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>特別小委員会の所管事項</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>特別小委員会の委員の数の上限</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="4">
+                            <ItemTitle>(4)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>特別小委員会を設置する期間</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                </Article>
+                <Article Num="24">
+                    <ArticleTitle>第24条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>前条各号の事項は、本会議の議決により変更することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="25">
+                    <ArticleCaption>（委員に関する事項）</ArticleCaption>
+                    <ArticleTitle>第25条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>特別小委員会の委員の資格は、予算委員会の委員とする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="26">
+                    <ArticleTitle>第26条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>特別小委員会の委員になろうとする者は、当該特別小委員会の小委員長に申し出るものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>
+                                特別小委員会の小委員長は、前項の規定による申出があったときは、当該特別小委員会の委員の数の上限を超えない範囲でこれを許可しなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="27">
+                    <ArticleCaption>（報告）</ArticleCaption>
+                    <ArticleTitle>第27条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>
+                                特別小委員会は、6月、11月及び2月の本会議において所管に属する事務の執行状況並びに本会議から付託された議案の審査及び調査の状況を文書で報告し、承認を求めなければならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>議長は、特別小委員会が前項の報告をしないときは、当該特別小委員会の小委員長に対し、報告をするよう勧告するものとする。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="6">
+                <ChapterTitle>第6章 情報管理審査委員会</ChapterTitle>
+                <Article Num="27_1">
+                    <ArticleCaption>（情報管理審査委員会）</ArticleCaption>
+                    <ArticleTitle>第27条の1</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>情報管理審査委員会は、予算委員会の情報管理体制について審査する。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="27_2">
+                    <ArticleCaption>（情報管理審査委員会の構成）</ArticleCaption>
+                    <ArticleTitle>第27条の2</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence Num="1">情報管理審査委員会は、委員長1名及び委員により構成する。</Sentence>
+                            <Sentence Num="2">委員の定数は、委員長の定めるところによる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="27_3">
+                    <ArticleCaption>（情報管理審査委員会の所掌事務）</ArticleCaption>
+                    <ArticleTitle>第27条の3</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>情報管理審査委員会は、次に掲げるような事項について審議し、意見を述べる。</Sentence>
+                        </ParagraphSentence>
+                        <Item Num="1">
+                            <ItemTitle>(1)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>個人情報の保護に関する事項</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="2">
+                            <ItemTitle>(2)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>情情報公開の実施に関する事項</Sentence>
+                            </ItemSentence>
+                        </Item>
+                        <Item Num="3">
+                            <ItemTitle>(3)</ItemTitle>
+                            <ItemSentence>
+                                <Sentence>公文書管理の体制に関する事項</Sentence>
+                            </ItemSentence>
+                        </Item>
+                    </Paragraph>
+                </Article>
+                <Article Num="27_4">
+                    <ArticleCaption>（服務）</ArticleCaption>
+                    <ArticleTitle>第27条の4</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>情報管理審査委員会委員長及び委員は、その職務において得た情報を漏らしてはならない。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+                <Article Num="27_5">
+                    <ArticleCaption>（勧告）</ArticleCaption>
+                    <ArticleTitle>第27条の5</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>情報管理審査委員会は、その所掌事務について、必要と認めるとき、他の機関に是正を勧告することができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+            <Chapter Num="8">
+                <ChapterTitle>第8章 雑則</ChapterTitle>
+                <Article Num="28">
+                    <ArticleCaption>（公聴会）</ArticleCaption>
+                    <ArticleTitle>第28条</ArticleTitle>
+                    <Paragraph Num="1">
+                        <ParagraphNum />
+                        <ParagraphSentence>
+                            <Sentence>小委員会は、議決により公聴会を開くことができる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                    <Paragraph Num="2">
+                        <ParagraphNum>2</ParagraphNum>
+                        <ParagraphSentence>
+                            <Sentence>前項の規定により小委員会が開く公聴会については、予算委員会公聴会規程の定めるところによる。</Sentence>
+                        </ParagraphSentence>
+                    </Paragraph>
+                </Article>
+            </Chapter>
+        </MainProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence>この規程は、2017年4月1日以降において最初に本会議の招集があった日から施行する。</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+            <Article Num="2">
+                <ArticleCaption>（経過措置）</ArticleCaption>
+                <ArticleTitle>第2条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence>
+                            この規程の施行の際現に設置されている小委員会の小委員長は、この規程の施行の日から7日以内に、第9条の規定の例により、委員及び特別委員の名簿を作成し、議長及び事務局長に提出しなければならない。</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+            <Article Num="3">
+                <ArticleTitle>第3条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence>この規程の施行の際現に設置されている特別小委員会の委員の定数は、この規程の施行の日において、委員の数の上限とみなす。</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Paragraph Num="1">
+                <ParagraphNum />
+                <ParagraphSentence>
+                    <Sentence>この規程は、2018年5月10日から施行する。</Sentence>
+                </ParagraphSentence>
+            </Paragraph>
+        </SupplProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Paragraph Num="1">
+                <ParagraphNum />
+                <ParagraphSentence>
+                    <Sentence>この規程は、2019年7月10日から施行する。</Sentence>
+                </ParagraphSentence>
+            </Paragraph>
+        </SupplProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Paragraph Num="1">
+                <ParagraphNum />
+                <ParagraphSentence>
+                    <Sentence>この規程は、2019年11月6日から施行する。</Sentence>
+                </ParagraphSentence>
+            </Paragraph>
+        </SupplProvision>
+        <SupplProvision>
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規程は、予算委員会規約の全部を改正する規約が施行されたときから施行する。</Sentence>
+                        <Sentence Num="2">（注：2023年4月1日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision AmendLawNum="抄：独立執行機関基本規程">
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規程は、この規程がクラス審議で承認されたときから施行する。</Sentence>
+                        <Sentence Num="2">（注：2023年5月17日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision AmendLawNum="抄：参議会規程">
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規程は、この規程がクラス審議で承認されたときから施行する。</Sentence>
+                        <Sentence Num="2">（注：2023年9月27日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision AmendLawNum="抄：外交関係基本規程">
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規程は、この規程がクラス審議で承認されたときから施行する。</Sentence>
+                        <Sentence Num="2">（注：2023年9月27日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision AmendLawNum="抄：身近な自治推進基本規程">
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規程は、この規程が本会議において承認された日から施行する。</Sentence>
+                        <Sentence Num="2">（注：2024年3月1日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+        <SupplProvision Extract="true">
+            <SupplProvisionLabel>附則</SupplProvisionLabel>
+            <Article Num="1">
+                <ArticleCaption>（施行期日）</ArticleCaption>
+                <ArticleTitle>第1条</ArticleTitle>
+                <Paragraph Num="1">
+                    <ParagraphNum />
+                    <ParagraphSentence>
+                        <Sentence Num="1">この規程は、この規程がクラス審議によって承認された日より施行する。</Sentence>
+                        <Sentence Num="2">（注：2024年11月6日）</Sentence>
+                    </ParagraphSentence>
+                </Paragraph>
+            </Article>
+        </SupplProvision>
+    </LawBody>
+</Law>
